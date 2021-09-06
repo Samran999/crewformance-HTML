@@ -1,0 +1,3128 @@
+@font-face {
+    font-family: Arista;
+    src: url('../fonts/Arista2.0\ Alternate\ light.ttf');
+}
+@font-face {
+    font-family: demi;
+    src: url('MaisonNeueExt-Demi_0.ttf');
+}
+@font-face {
+    font-family: Grotesque ;
+    src: url('BasisGrotesquePro-Regular_0.ttf');
+}
+@font-face {
+    font-family:GrotesquePro ;
+    src: url('BasisGrotesquePro-Bold_1.ttf');
+}
+@font-face {
+    font-family: GrotesquePro-Light;
+    src: url('BasisGrotesquePro-Light_0.ttf');
+}
+@font-face {
+    font-family: MaisonNeueExt-Bold;
+    src: url('MaisonNeueExt-Bold.ttf');
+}
+/* header */
+.bd-headercolor{
+    background-color: #162557;
+}
+.topheader{
+    color: white;
+    font-size:12pt;
+    padding-top: 10px;
+    font-family: Grotesque;
+    
+}
+.top-header-img{
+    width: 20px;
+}
+
+
+
+
+
+
+
+/*div1*/
+.nav-background{
+    background-image: url(../images/4.png);
+    height:80vh;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+
+}
+.back-img-text{
+    color: white;
+    
+    padding-top: 200px;
+
+}
+.back-img-text h1{
+    font-size: 3vw;
+    font-family: demi;
+}
+.back-img-text p{
+    font-family: GrotesquePro-Light;
+    font-size: 1.1vw;
+}
+.back-img-text .btn{
+    background-color: #f5833c;
+    color: white;
+    text-align: center;
+    height:55px;
+    width: 180px;
+    font-family: Grotesque ;
+    font-size: 18pt;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+.btn{
+    border-radius: 30px;
+    border: none;
+}
+
+
+
+
+.home-navbar{
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    
+}
+.navbar-brand{
+    color: white !important;
+    font-family:  Arista !important;
+    font-size: 37pt;
+    
+}
+.nav-item{
+    padding-right: 50px;
+    padding-top: 19px;
+} 
+.navbar-item-btn{
+    border:1px solid #FFFFFF !important;
+    color: white;
+    font-family: Grotesque ;
+    text-align: center;
+    height:52px;
+    width: 150px;
+    font-family: Grotesque ;
+    font-size: 16pt;
+    padding-top: 11px;
+   
+}
+
+.home-nav-link{
+    color: white !important;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: 'Darker Grotesque', sans-serif;
+
+}
+.navbrand-color1{
+    color: #d65416 !important;
+}
+
+
+
+
+.d-block{
+	background-position: center;
+	background-size: cover;
+}
+
+.navbar-light .navbar-nav .active>.home-nav-link, .navbar-light .navbar-nav .home-nav-link.active, .navbar-light .navbar-nav .home-nav-link.show, .navbar-light .navbar-nav .show>.home-nav-link{
+	color: #fff;
+}
+.navbar-light .navbar-nav .home-nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.home-nav-link {
+	padding: .2rem 1rem;
+}
+.home-nav-link.active, .nav-link:focus {
+	color: #d65416;
+}
+
+
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .home-nav-link:focus, .navbar-light .navbar-nav .home-nav-link:hover {
+	color: #fff;
+}
+
+@media only screen and (max-width: 1081px){
+    .home-navbar{
+        
+    padding-left: 15px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 990px) {
+	.navbar-nav.ml-lg-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size:5px;
+		font-weight: normal;
+	}
+    .nav-item{
+        padding-top: 0% !important;
+    }
+    .nav-item a{
+        font-size: 11pt !important;
+    }
+    .navbar-item-btn{
+        border:0.5px solid #FFFFFF !important;
+        color: white;
+        font-family: Grotesque ;
+        text-align: center;
+        height:30px;
+        width: 100px;
+        font-family: Grotesque ;
+        font-size: 10pt;
+        padding-top: 4px;
+       
+    }
+    .indus-nav-item-btn{
+        border:0.5px solid #FFFFFF !important;
+        color: white;
+        font-family: Grotesque ;
+        text-align: center;
+        height:30px !important;
+        width: 100px !important;
+        font-family: Grotesque ;
+        font-size: 10pt !important;
+        padding-top: 4px !important;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 1435px) {
+    .nav-item{
+        padding-right: 12px;
+        padding-top: 19px;
+    } 
+    .navbar-brand{
+        color: white !important;
+        font-family:  Arista !important;
+        font-size: 25pt;
+        
+    }
+    .home-nav-link{
+        color: white !important;
+        font-weight: bold;
+        font-size: 15pt;
+        font-family: 'Darker Grotesque', sans-serif;
+    
+    }
+    
+
+	
+}
+
+
+ 
+@media only screen and (max-width:624px){
+    .navbar-brand{
+        color: white !important;
+        font-family:  Arista !important;
+        font-size: 22pt;
+        
+    }
+    .home-navbar{
+        padding-top: 5px;
+        padding-left: 30px;
+    }
+   
+
+
+}
+@media only screen and (max-width:516px){
+
+
+    .navbar-brand{
+        color: white !important;
+        font-family:  Arista !important;
+        font-size: 15pt;
+        
+    }
+    .nav-brand-img{
+        width: 30px;
+    }
+    
+    .home-navbar{
+        padding-top: 3px;
+        padding-left: 20px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:440px){
+
+    .navbar-brand{
+        color: white !important;
+        font-family:  Arista !important;
+        font-size: 13pt;
+        
+    }
+    .nav-brand-img{
+        width: 25px;
+    }
+    
+    .home-navbar{
+        padding-top: 2px;
+        padding-left: 15px;
+    }
+
+    
+
+
+}
+
+
+
+
+/* div2 */
+
+.home-div2-wrapper{
+    padding-bottom: 70px;
+}
+
+.home-div2-c1{
+	padding-top: 100px;
+    padding-left: 0%;
+    
+	
+}
+.home-div2-col2 {
+	padding-top: 120px;
+	text-align: left;
+}
+.home-div2-col2 h1{
+    color: #222b5e;
+    font-size: 3vw;
+    font-family: demi;
+}
+
+.home-div2-col2 h2{
+    padding-bottom: 40px;
+    color: #3f3f3f;
+    font-size: 1.9vwt;
+    font-family:GrotesquePro ;
+}
+.home-div2-col2 p{
+    padding-bottom: 30px;
+    font-family: GrotesquePro-Light;
+    font-size: 1.2vw;
+}
+
+
+.home-div2-col2 a{
+    padding-top:20px;
+} 
+
+.home-div2-col2 .btn{
+    color: rgb(173, 70, 6);
+    text-align: center;
+    height:55px;
+    width: 230px;
+    font-family: Grotesque ;
+    font-size: 18pt;
+    padding-top: 10px;
+    border:1px solid rgb(173, 70, 6) !important;
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:528px){
+    .home-div2-img{
+        width: 300px;
+    
+    }
+
+
+
+}
+@media only screen and (max-width:310px){
+    .home-div2-img{
+        width: 200px;
+    
+    }
+
+
+
+}
+
+/* div3 */
+
+
+.home-div3-wrapper{
+    background-image: url('../images/6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.home-div3-content1{
+    color: white;
+    padding-top:  80px;
+    padding-bottom: 80px;
+}
+.home-div3-content1 h1{
+    font-family: demi;
+    font-size: 3vw;
+
+}
+.home-div3-content1 p{
+    font-family: Grotesque ;
+    font-size: 1.2vw;
+
+
+}
+.home-div3-icon{
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.home-div3-icon2{
+    padding-right: 20px;
+}
+
+/* div4 */
+.home-div4-content h1{
+    font-family: demi;
+    color: #222b5e;
+    font-size: 2vw;
+
+}
+.home-div4-content p{
+    font-family:GrotesquePro ;
+    font-weight: bold;
+    font-size: 1vw;
+    color: #3f3f3f;
+
+
+}
+.home-div4-main{
+    padding-bottom: 50px;
+}
+.home-div4-content .btn{
+background-color: #f5833c;
+color: white;
+text-align: center;
+height:55px;
+width: 180px;
+font-family: Grotesque ;
+font-size: 18pt;
+padding-top: 10px;
+}
+
+
+.home-div4-img{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.home-div4-row{
+    padding-top: 100px;
+}
+.fa-check-circle{
+    padding-right: 20px;
+    color: #5db18a;
+}
+
+
+@media only screen and (max-width:480px){
+    .home-div4-img{
+        
+    padding-left: 0px;
+    width: 300px;
+
+    }
+
+
+
+}
+@media only screen and (max-width:302px){
+    .home-div4-img{
+        
+    padding-left: 0px;
+    width: 200px;
+
+    }
+
+
+
+}
+
+/* div5*/
+
+.home-div5-wrapper{
+    background-image: url("../images/8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.home-dive5-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 800px;
+}
+@media screen and (max-width:1242px) {
+    .home-dive5-content{
+        
+        padding-left: 500px;
+    }
+    
+    
+
+    
+}
+@media screen and (max-width:778px) {
+    .home-dive5-content{
+        
+        padding-left: 300px;
+    }
+    
+    
+
+    
+}
+@media screen and (max-width:514px) {
+    .home-dive5-content{
+        
+        padding-left: 200px;
+    }
+    
+    
+
+    
+}
+@media screen and (max-width:395px) {
+    .home-dive5-content{
+        
+        padding-left: 100px;
+        
+    }
+    .home-dive5-content .btn{
+
+        background-color: white;
+        color: #d65416;
+        text-align: center;
+        height:20px !important;
+        width: 70px !important;
+        font-family: Grotesque ;
+        font-size: 8pt !important;
+        padding-top:3px !important;
+        font-family: GrotesquePro-Light;
+        font-weight: bold;
+        padding-left: 9px !important; 
+    }
+    
+    
+
+    
+}
+
+.home-dive5-content h1{
+    font-size: 3vw;
+    font-family: demi;
+    color: #222b5e;
+}
+.home-dive5-content p{
+    font-family: GrotesquePro-Light;
+    font-size: 1.6vw;
+
+}
+.home-dive5-content .btn{
+
+    background-color: white;
+    color: #d65416;
+    text-align: center;
+    height:50px;
+    width: 130px;
+    font-family: Grotesque ;
+    font-size: 14pt;
+    padding-top: 10px;
+    font-family: GrotesquePro-Light;
+    font-weight: bold;
+}
+
+  /* div6*/
+
+
+  .home-div6-wrapper{
+    background-image: url("../images/9.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    background-size: cover;
+   
+}
+.home-div6-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+
+}
+
+.home-div6-content h1{
+    font-size: 3vw;
+    font-family: demi;
+    color: white;
+}
+.home-div6-content p{
+    font-family: GrotesquePro-Light;
+    color: white;
+    font-size: 1.5vw;
+
+}
+.home-div6-content .btn{
+
+    background-color: white;
+    color: #d65416;
+    text-align: center;
+    height:50px;
+    width: 130px;
+    font-family: Grotesque ;
+    font-size: 14pt;
+    padding-top: 10px;
+    font-family: GrotesquePro-Light;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+    .wrap-img{
+
+        position: relative;
+        
+    }
+
+
+    .wrap-img img{
+        width: 100%;
+    }
+
+ .wrapper-col{
+     position: absolute;
+    top: 30%;
+    bottom: 50%;
+
+ }
+ .wrapper-col h1 {  
+    color: white;
+    font-family: demi;
+    font-size:38pt; 
+    
+ }
+ 
+ .wrapper-col p{
+    color: white;
+    
+    margin-right: 150px;
+    font-family: GrotesquePro-Light;
+    font-size: 15pt;
+    font-weight: 5px;
+
+}
+.wrapper-col .btn{
+background-color: white;
+color: #d65416;
+text-align: center;
+height:50px;
+width: 130px;
+font-family: Grotesque ;
+font-size: 14pt;
+padding-top: 10px;
+font-family: GrotesquePro-Light;
+font-weight: bold;
+
+}
+
+ @media screen and (max-width: 1100px) {
+     .wrapper-col{  
+        top: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+     }
+     .wrapper-col p{
+        color: white;
+        font-family: GrotesquePro-Light;
+        font-size: 13pt;
+        
+    
+    }
+    .wrapper-col h1 {  
+        color: white;
+        font-family: demi;
+        font-size:34pt; 
+        
+     }
+     .wrapper-col .btn{
+        background-color: white;
+        color: #d65416;
+        text-align: center;
+        height:40px;
+        width: 100px;
+        font-family: Grotesque ;
+        font-size: 10pt;
+        padding-top: 10px;
+        font-family: GrotesquePro-Light;
+        font-weight: bold;
+        
+        }
+    
+    }
+
+    @media screen and (max-width: 766px) {
+        .wrapper-col{  
+           top: 30px;
+           left: 10px;
+           padding-right: 0px;
+           padding-left: 0px;
+   
+        }
+        .wrapper-col p{
+           color: white;
+           font-family: GrotesquePro-Light;
+           font-size: 10pt;
+           margin-right: 300px;
+           
+             margin-bottom: 3px;
+
+           
+       
+       }
+       .wrapper-col h1 {  
+           color: white;
+           font-family: demi;
+           font-size:25pt; 
+           
+        }
+        .wrapper-col .btn{
+           background-color: white;
+           color: #d65416;
+           text-align: center;
+           height:25px;
+           width: 80px;
+           font-family: Grotesque ;
+           font-size: 8pt;
+           padding-top: 6px;
+           font-family: GrotesquePro-Light;
+           font-weight: bold;
+           
+           }
+       
+       }
+
+       @media screen and (max-width: 548px) {
+        .wrapper-col{  
+           top: 25px;
+           left: 10px;
+           padding-right: 0px;
+           padding-left: 0px;
+   
+        }
+        .wrapper-col p{
+           color: white;
+           font-family: GrotesquePro-Light;
+           font-size: 8pt;
+           margin-right: 180px;
+           
+         
+
+           
+       
+       }
+       .wrapper-col h1 {  
+           color: white;
+           font-family: demi;
+           font-size:15pt; 
+           
+        }
+        .wrapper-col .btn{
+           background-color: white;
+           color: #d65416;
+           text-align: center;
+           height:20px;
+           width: 60px;
+           font-family: Grotesque ;
+           font-size: 6pt;
+           padding-top: 6px;
+           font-family: GrotesquePro-Light;
+           font-weight: bold;
+           
+             padding-left: 9px;
+
+           
+           }
+       
+       }
+      @media screen and (max-width: 448px) {
+        .wrapper-col{  
+           top: 15px;
+           left: 10px;
+           padding-right: 0px;
+           padding-left: 0px;
+   
+        }
+        .wrapper-col p{
+           color: white;
+           font-family: GrotesquePro-Light;
+           font-size: 5pt;
+           margin-right:150px;
+           
+       
+       }
+       .wrapper-col h1 {  
+           color: white;
+           font-family: demi;
+           font-size:12pt; 
+           
+        }
+        .wrapper-col .btn{
+           background-color: white;
+           color: #d65416;
+           text-align: center;
+           height:15px;
+           width: 50px;
+           font-family: Grotesque ;
+           font-size: 5pt;
+           padding-top: 3px;
+           font-family: GrotesquePro-Light;
+           font-weight: bold;
+           
+             padding-left: 9px;
+
+           
+           }
+       
+ }
+
+    /* div7*/
+
+
+
+    .home-card1-text{
+        position: relative;
+        top: -210px !important;
+        left: 20px;
+        color: white;
+        font-size: 18pt;
+        font-family:GrotesquePro ;
+        font-weight: bold;
+        
+    }
+    .home-img-thumbnail{
+        position: relative;
+    
+    }
+    .home-Industries-heading{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .home-Industries-heading h1{
+        font-family: demi;
+        color: #222b5e;
+        font-size: 3vw;
+    }
+    .bg-img-home-industries{
+        background-image: url('../images/10.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .home-industries-container a{
+        text-decoration: none;
+    }
+    .home-Industries-heading .btn{
+        background-color: #d65416;
+        color:white ;
+        text-align: center;
+        height:50px;
+        width: 130px;
+        font-family: Grotesque ;
+        font-size: 14pt;
+        padding-top: 10px;
+        font-family: GrotesquePro-Light;
+        font-weight: bold;
+
+
+    }
+  
+
+
+
+    /*div8*/
+
+
+    .home-div8-col{
+        float: left;
+        width: 16% !important;
+        padding: 0 10px;
+        padding-bottom: 50px;
+      }
+      
+      /* Remove extra left and right margins, due to padding */
+      .row {margin: 0 -5px;}
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive columns */
+      @media screen and (max-width: 1000px) {
+        .home-div8-col{
+          width: 100% !important;
+          display: block;
+          margin-bottom: 20px;
+        }
+        .home-div8-card{
+            
+             width: 150px !important;
+
+        }
+
+      }
+      @media screen and (max-width: 1200px) {
+        .home-card-image{
+            width: 100px !important;
+            
+        }
+        
+      }
+      @media screen and (max-width: 450px) {
+        .home-card-image{
+            width: 80px !important;
+            padding-top: 10px !important;
+            
+        }
+        
+      }
+      .home-div8-card{
+            
+        width: 130px !important;
+
+   }
+      .home-card-image{
+          width: 120px;
+          height: 100px;
+          padding-left:20px;
+          padding-top: 30px;
+          padding-bottom: 20px;
+      }
+      .services-div8{
+        text-align: center;
+    }
+    .services-div8-card-container{
+        padding-bottom: 60px;
+    }
+    .services-div8-content-card{
+        padding-top: 60px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .services-div8-content-card h1{
+        font-family: demi;
+        color: #222b5e;
+        font-size: 3vw;
+
+    }
+
+    /*div9 */
+
+    .home-div-9-content{
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .home-div-9-content h1{
+        font-family: demi;
+        color: white;
+        font-size: 3vw;
+
+
+    }
+   .home-div-9-content p{
+    font-family: Grotesque ;
+    font-size: 1.6vw;
+    color: white;
+   }
+    .home-div-9-wrapper{
+        background-image: url(../images/32.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .home-div-9-wrapper .row{
+        padding-bottom: 30px;
+    }
+    .home-div9-container-text p{
+        font-family: Grotesque ;
+        font-size: 1.3vw;
+        color: white;
+
+    }
+    .home-div9-container-text h1{
+        font-family: MaisonNeueExt-Bold;
+        font-size: 3vw;
+        color: white;
+        font-weight: bold;
+
+    }
+
+
+    /*div10*/
+    .card{
+        position: relative;
+        
+      }
+      .info img {
+          position: relative;
+          height: auto;
+          top: -60px !important;
+          
+          
+      }
+      .rounded-circle{
+          background-color: red;
+          
+          
+      }
+      .card-text{
+          text-align: left;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+      }
+      
+      hr{
+          width: 80%;
+          height: 10px;
+      }
+      .writter{
+          text-align: left;
+          padding-left: 20px;
+      }
+      @media screen and (max-width:1000px) {
+        .writer-name{
+            font-size: 10pt !important;
+        }
+          
+      }
+      .test-heading{
+          text-align: center;
+          color: white;
+          padding-top: 70px;
+      }
+      .test-heading h1{
+        font-family:demi ;
+        font-size: 38pt;
+
+      }
+      .test-heading p{
+        font-family:GrotesquePro ;
+        font-size:1.6vw;
+        font-weight: bold;
+
+      }
+      
+      .test-bd-crl{
+          background-color: #222b5e;
+      }
+      
+      .test-container{
+          padding-bottom: 80px;
+      }
+      .test-container p{
+        font-family: Grotesque ;
+        font-size:12pt;
+
+      }
+      .writer-desigination{
+          color: #d65416;
+          font-family:Grotesque; 
+          font-size: 11pt;
+      }
+      .writer-name{
+          color: #222b5e;
+          font-family:GrotesquePro; 
+          font-weight: bold;
+          font-size: 1.2vw;
+      }
+
+      /*div11*/
+.blog-div2-container{
+        padding-top: 60px;
+        padding-left: 0%;
+        padding-right: 0;
+    }
+.card-body{
+        border: groove;
+        border-top: none;
+        border-width: 0.5px;
+    }
+    .home-div11-heading{
+        padding-top: 50px;
+    
+    }
+    .home-div11-heading h1{
+        font-family: demi;
+        color: #222b5e;
+        font-size: 3vw;
+    }
+
+
+    /*div12*/
+    .home-dive12-main{
+        padding-top: 60px;
+
+    }
+
+    .home-div12-wrapper{
+        background-image: url(../images/17.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 50px;
+    }
+    .home-div12-wrapper .row{   
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    }
+    .home-div12-wrapper h1{
+        color: white;
+    }
+    .home-div12-wrapper a{
+        
+    padding-left: 60px;
+    padding-top: 40px;
+
+    }
+    .card-text{
+        padding-left: 0px;
+    }
+    .blog-div2-container h5{
+        font-family:GrotesquePro; 
+        font-weight: bold;
+        font-size: 1.6vw;
+
+    }
+    .blog-div2-container p{
+        
+        font-family:Grotesque; 
+        font-size: 1.2vw;
+        
+
+    }
+   
+    .blog-div2-container a{
+        color: #d65416;
+    }
+    .home-div12-wrapper h1{
+        font-family: demi;
+        font-size: 3vw;
+    }
+    .home-div12-wrapper .btn{
+       background-color: #d65416 ;
+       color: white;
+       height: 40px;
+       width: 150px;
+       padding: 0%;
+       padding-top: 8px !important;
+
+    }
+
+    /* footer*/
+
+    .page-footer{
+        background-color: black;
+
+    }
+    .footer-input{
+        background-color: transparent;
+        width: 100%;
+        border-style: solid;
+        border-width: 2px;
+        border-top: white !important;
+        border-right: white;
+        border-left:white;
+        position: relative;
+    
+    }
+    
+    .footer-color a{
+        color: white;
+    }
+
+    .footer-color{
+        color: white;
+    }
+    .footer-icon{
+        position: absolute;
+        
+         right: 0px;
+
+    }
+
+
+
+
+    /* industries */
+
+
+
+    /* industries */
+
+
+    .navbar-industries{
+        padding-left: 100px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+    
+    }
+    .nav-indus-item{
+        padding-right: 50px;
+       
+    } 
+    .indus-navbrand-color1{
+        color: #d65416;
+    }
+    .indus-navbrand-color2{
+        color: #222b5e;
+    }
+    .nav-indus-link{
+        color: #222b5e !important;
+    
+    font-size: 17pt;
+    
+    }
+    @media only screen and (max-width:1153px) {
+        .navbar-industries{
+            
+            padding-left: 15px;
+
+        }
+        
+    }
+
+
+  
+    .indus-nav-item-btn{
+
+   
+    border:1px solid #d65416 !important;
+    color:#d65416;
+    font-family: Grotesque ;
+
+   
+    text-align: center;
+    height:55px;
+    width: 150px;
+    font-family: Grotesque ;
+    font-size: 16pt;
+    padding-top: 11px;
+}
+@media only screen and (max-width: 1504px) {
+    .nav-indus-item{
+        padding-right: 12px;
+        
+    } 
+    .navbar-brand{
+
+        font-size: 25pt;
+        
+    }
+    .home-nav-link{
+        color: white !important;
+        font-weight: bold;
+        font-size: 15pt;
+        font-family: 'Darker Grotesque', sans-serif;
+    
+    }
+    .nav-item-btn{
+        border:.5px solid #FFFFFF !important;
+        color: white;
+        font-family: Grotesque ;
+        text-align: center;
+        height:35px;
+        width: 110px;
+        font-family: Grotesque ;
+        font-size: 12pt;
+        padding-top: 5px;
+       
+    }
+
+    
+}
+@media only screen and (max-width: 1244px) {
+    .nav-indus-item{
+        padding-right: 10px;
+        
+    } 
+    .navbar-brand{
+
+        font-size: 22pt;
+        
+    }
+    .nav-indus-link{
+        color: #222b5e !important;
+    
+        font-size: 15pt;
+    
+    }
+    .nav-item-btn{
+        border:.5px solid #FFFFFF !important;
+        color: white;
+        font-family: Grotesque ;
+        text-align: center;
+        height:25px;
+        width: 100px;
+        font-family: Grotesque ;
+        font-size: 11pt;
+        padding-top: 5px;
+       
+    }
+
+    
+}
+@media only screen and (max-width: 1080px) {
+    .nav-indus-item{
+        padding-right: 8px;
+        
+    } 
+    .navbar-brand{
+
+        font-size: 22pt;
+        
+    }
+    .nav-indus-link{
+        color: #222b5e !important;
+    
+        font-size: 13pt;
+    
+    }
+    .nav-item-btn{
+        border:.5px solid #FFFFFF !important;
+        color: white;
+        font-family: Grotesque ;
+        text-align: center;
+        height:20px;
+        width: 90px;
+        font-family: Grotesque ;
+        font-size: 10pt;
+        padding-top: 5px;
+       
+    }
+
+    
+}
+@media only screen and (max-width: 1012px) {
+    .nav-indus-item{
+        padding-right: 6px;
+        
+    } 
+    .navbar-brand{
+
+        font-size: 22pt;
+        
+    }
+    .nav-indus-link{
+        color: #222b5e !important;
+    
+        font-size: 13pt;
+    
+    }
+    .nav-item-btn{
+        border:.5px solid #FFFFFF !important;
+        color: white;
+        font-family: Grotesque ;
+        text-align: center;
+        height:10px !important;
+        width: 80px;
+        font-family: Grotesque ;
+        font-size: 9pt;
+        padding-top: 5px;
+       
+    }
+
+    
+}
+@media only screen and (max-width: 400px) {
+   
+    .navbar-brand{
+
+        font-size:18pt;
+        
+    }
+    .navbar-industries{
+        
+    padding-left: 10px;
+
+    }
+    .navbar-brand img{
+        
+    width: 38px;
+
+    } 
+    
+    
+
+    
+}
+
+
+
+/* blogs page*/
+
+/*div1*/
+
+.blog-div1-container{
+    padding: 0;
+}
+.blog-div1-col2{
+    padding-left: 50px;
+    padding-top: 70px;
+    background-color: #222b5e;
+    color: white;
+ 
+}
+.blog-div1-heading{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.blog-div1-heading h1{
+    font-family:GrotesquePro ;
+    color: #294e60;
+    font-weight: bold;
+    font-size: 40pt;
+
+}
+.blog-div1-col2 h1{
+    font-family:GrotesquePro ;
+    
+
+}
+.blog-div1-col2 p{
+    font-family: GrotesquePro-Light;
+    font-size: 13pt;
+
+}
+.btn-blogs{
+    background-color: #f5833c;
+    border-radius: 20px;
+    border: none;
+    color: white;
+
+}
+
+
+.blog-div2-col{
+    padding-bottom: 50px;
+
+}
+.blog-div2-container .row{
+    padding-bottom:50px ;
+
+}
+.blog-div1-col1 img{
+    width: 100%;
+}
+.blog-div1-col1{
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+@media only screen and (max-width:1200px) {
+    .blog-div1-col2{
+        padding-top:30px;
+
+    }
+    .blog-div1-col2 h1{
+        font-size: 25pt;
+
+    }
+    .blog-div1-col2 p{
+        font-size: 10pt;
+    }
+    
+}
+@media only screen and (max-width:990px) {
+    .blog-div1-col2{
+        padding-bottom: 30px;
+
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/*services*/
+.services-div1-wrape-img{
+    background-image: url(../images/28.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+/*Capacity Eng*/
+
+.services-div6-wrape-img{
+    background-image: url(../images/31.png) !important;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 30vh !important;
+    
+
+}
+.services-div1-wrape-content{
+    padding-top: 70px !important;
+}
+.cap-wrapper-col{
+    position: absolute;
+   top: 40%;
+   bottom:40%;
+
+}
+.cap-wrapper-col h1{
+color: white;
+font-family: demi;
+font-size:38pt;
+}
+.cap-wrapper-col p{
+    color: white;
+    font-family: Grotesque;
+    font-size:20pt;
+    
+
+}
+.cap-wrapper-col .btn{
+
+
+background-color: #d65416;
+color: white;
+text-align: center;
+height:50px;
+width: 130px;
+font-family: Grotesque ;
+font-size: 14pt;
+padding-top: 10px;
+font-family: GrotesquePro-Light;
+font-weight: bold;
+}
+@media screen and (max-width: 1024px) and (min-width:768px){
+    .cap-wrapper-col{
+        position: absolute;
+       top: 30%;
+       bottom:40%;
+    
+    }
+    .cap-wrapper-col h1{
+        color: white;
+        font-family: demi;
+        font-size:30pt;
+        }
+        .cap-wrapper-col p{
+            color: white;
+            font-family: Grotesque;
+            font-size:16pt;
+            
+        
+        }
+        .cap-wrapper-col .btn{
+        
+        
+        background-color: #d65416;
+        color: white;
+        text-align: center;
+        height:40px;
+        width: 130px;
+        font-family: Grotesque ;
+        font-size: 11pt;
+        padding-top: 9px;
+        font-family: GrotesquePro-Light;
+        font-weight: bold;
+        }
+
+}
+@media screen and (max-width: 768px) and (min-width:480px){
+    .cap-wrapper-col{
+        position: absolute;
+       top: 20%;
+       bottom:40%;
+    
+    }
+    .cap-wrapper-col h1{
+        color: white;
+        font-family: demi;
+        font-size:20pt;
+        }
+        .cap-wrapper-col p{
+            color: white;
+            font-family: Grotesque;
+            font-size:13pt;
+            
+        
+        }
+        .cap-wrapper-col .btn{
+        
+        
+        background-color: #d65416;
+        color: white;
+        text-align: center;
+        height:25px;
+        width: 100px;
+        font-family: Grotesque ;
+        font-size: 11pt;
+        padding-top: 1px;
+        font-family: GrotesquePro-Light;
+        font-weight: bold;
+        }
+
+}
+@media only screen and (max-width: 480px) {
+    .cap-wrapper-col{
+        position: absolute;
+       top: 20%;
+       bottom:40%;
+    
+    }
+    .cap-wrapper-col h1{
+        color: white;
+        font-family: demi;
+        font-size:10pt;
+        }
+        .cap-wrapper-col p{
+            color: white;
+            font-family: Grotesque;
+            font-size:7pt;
+            
+        
+        }
+        .cap-wrapper-col .btn{
+        
+        
+        background-color: #d65416;
+        color: white;
+        text-align: center;
+        height:25px;
+        width: 100px;
+        font-family: Grotesque ;
+        font-size: 11pt;
+        padding-top: 1px;
+        font-family: GrotesquePro-Light;
+        font-weight: bold;
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+/*div2*/
+
+.wrapper-services-div2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.services-di2-heading{
+    text-align: center;
+}
+.services-di2-heading h1{
+    color: #222b5e;
+    font-size: 38pt;
+    font-family: demi;
+    font-weight: bold;
+
+}
+.services-div2-content p{
+    font-family: GrotesquePro-Light;
+    font-size: 18pt;
+    
+}
+
+/*div3*/
+
+.div-img29{
+    object-fit: cover;
+}
+.div-img38{
+    object-fit: cover;
+}
+.services-div3-content{
+    background-color: #263068;
+    
+    padding-top: 100px;
+    padding-left: 50px;
+    color: white;
+
+}
+.services-div35{
+    padding-left: 0%;
+
+}
+
+
+.services-div3-row3{
+    padding-left: 14px;
+}
+
+.services-bd-wrape{
+    background-color: #222b5e;
+}
+.services-div3-heading {
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  
+}
+.services-div3-heading h2{
+    font-family: demi;
+    font-size: 38pt;
+}
+.services-div3-heading p{
+    font-family: Grotesque;
+    font-size: 18;
+    
+}
+
+.services-container{
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 990px) {
+    .services-div3-content{
+        object-fit: cover;
+        
+    width: 559px;
+
+    }
+   
+    
+}
+
+/*  div4*/
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    padding-bottom: 50px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 1000px) {
+    .column {
+      width: 35%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .services-div4-card-container .row{
+        padding-left: 150px !important;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    
+    
+    .services-div4-card-container .row{
+        padding-left: 100px !important;
+    }
+    .services-card-image{
+       
+    padding-left: 10px !important;
+    width: 120px !important;
+
+    }
+  }
+  @media screen and (max-width: 526px) {
+    
+    .services-card-image{
+       
+    padding-left: 10px !important;
+    width: 90px !important;
+
+    }
+  }
+  @media screen and (max-width: 442px) {
+    
+    .services-card-image{
+       
+    padding-left: 8px !important;
+    width: 70px !important;
+    padding-top: 20px !important;
+    
+
+    }
+    .services-card{
+        height: 82px !important;
+
+    }
+  }
+  @media screen and (max-width: 384px) {
+    
+    .services-card-image{
+       
+    padding-left: 2px !important;
+    width: 50px !important;
+
+    }
+    .services-card{
+        height:70px !important;
+
+    }
+    .services-div4-card-container .row{
+        padding-left: 80px !important;
+    }
+    
+  }
+  .services-card-image{
+      width: 150px;
+      height: 100px;
+      padding-left:30px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+  }
+  .services-div4{
+    text-align: center;
+}
+.services-div4-wrapper{
+    background-image: url('../images/30.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-div4-card-container{
+    padding-bottom: 60px;
+}
+.services-div4-content-card{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.services-div4-content-card h1{
+    font-family: demi;
+    color: white;
+    font-size: 38pt;
+}
+.services-div4-content-card p{
+    font-family:Grotesque ;
+    font-size: 20pt;
+    color: white;
+    
+}
+/*div5 and home/4*/
+.service-div5{
+    padding-top: 90px;
+}
+
+
+/*div6*/
+
+.footer-cap-wrapper-col{
+    position: absolute;
+   top: 40%;
+   bottom:40%;
+
+}
+.footer-cap-wrapper-col h1{
+color: white;
+font-family: demi;
+font-size:38pt;
+}
+.footer-cap-wrapper-col p{
+    color: white;
+    font-family: Grotesque;
+    font-size:20pt;
+    
+
+}
+.footer-cap-wrapper-col .btn{
+
+
+background-color: #d65416;
+color: white;
+text-align: center;
+height:50px;
+width: 130px;
+font-family: Grotesque ;
+font-size: 14pt;
+padding-top: 10px;
+font-family: GrotesquePro-Light;
+font-weight: bold;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width:1024px){
+
+    .footer-cap-wrapper-col{
+        position: absolute;
+        top: 30%;
+       
+    
+    }
+        .footer-cap-wrapper-col h1{
+            color: white;
+            font-family: demi;
+            font-size:30pt;
+            }
+            .footer-cap-wrapper-col .btn{
+            
+            
+            background-color: #d65416;
+            color: white;
+            text-align: center;
+            height:40px;
+            width: 100px;
+            font-family: Grotesque ;
+            font-size: 10pt;
+            padding-top: 10px;
+            font-family: GrotesquePro-Light;
+            font-weight: bold;
+            }
+
+}
+@media screen and (max-width: 1024px) and (min-width:768px){
+    .footer-cap-wrapper-col{
+        position: absolute;
+        top: 25%;
+        
+        left: 160px;
+
+       
+    
+    }
+        .footer-cap-wrapper-col h1{
+            color: white;
+            font-family: demi;
+            font-size:25pt;
+            }
+            .footer-cap-wrapper-col .btn{
+            
+            
+            background-color: #d65416;
+            color: white;
+            text-align: center;
+            height:30px;
+            width: 80px;
+            font-family: Grotesque ;
+            font-size: 8pt;
+            padding-top: 10px;
+            font-family: GrotesquePro-Light;
+            font-weight: bold;
+            }
+
+}
+@media screen and (max-width: 768px) and (min-width:561px){
+    .footer-cap-wrapper-col{
+        position: absolute;
+        top: 15%;
+        
+        left: 160px;
+
+       
+    
+    }
+        .footer-cap-wrapper-col h1{
+            color: white;
+            font-family: demi;
+            font-size:20pt;
+            }
+            .footer-cap-wrapper-col .btn{
+            
+            
+            background-color: #d65416;
+            color: white;
+            text-align: center;
+            height:30px;
+            width: 80px;
+            font-family: Grotesque ;
+            font-size: 8pt;
+            padding-top: 10px;
+            font-family: GrotesquePro-Light;
+            font-weight: bold;
+            }
+
+}
+@media only screen and (max-width: 560px) {
+    .footer-cap-wrapper-col{
+        position: absolute;
+        top: 15%;
+        
+        left: 100px;
+
+       
+    
+    }
+        .footer-cap-wrapper-col h1{
+            color: white;
+            font-family: demi;
+            font-size:15pt;
+            }
+            .footer-cap-wrapper-col .btn{
+            
+            
+            background-color: #d65416;
+            color: white;
+            text-align: center;
+            height:20px;
+            width: 60px;
+            font-family: Grotesque ;
+            font-size: 7pt;
+            padding-top: 3px;
+            font-family: GrotesquePro-Light;
+            font-weight: bold;
+            padding-left: 1%;
+            }
+
+}
+
+
+
+/*about us*/
+
+
+/* 1*/
+.aboutus-div1-wrapper{
+    background-image: url(../images/40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    height:50vh;
+    
+}
+.aboutus-div1-content{
+    padding-top: 150px;
+    
+}
+
+
+.aboutus-div1-content h1{
+    font-family: demi;
+    font-size: 3vw;
+    color: white;
+}
+.aboutus-div1-content p{
+    font-family:Grotesque ;
+    font-size: 1.5vw;
+    color: white;
+}
+
+@media screen and (max-width:1024px) and ( min-width:767px){
+    .aboutus-div1-content h1{
+        font-family: demi;
+        font-size:4vw;
+        color: white;
+    }
+    .aboutus-div1-content p{
+        font-family:Grotesque ;
+        font-size: 2vw;
+        color: white;
+    }
+
+    .aboutus-div1-content .btn{
+        background-color: #d65416;
+        color: white;
+        text-align: center;
+        height:30px !important;
+        width: 100px !important;
+        font-family: Grotesque ;
+        font-size: 10pt !important;
+        padding-top: 6px !important;
+        font-family: GrotesquePro-Light;
+        font-weight: bold;
+        }
+
+
+}
+@media screen and (max-width:767px) and ( min-width:500px){
+    .aboutus-div1-content h1{
+        font-family: demi;
+        font-size:5vw;
+        color: white;
+    }
+    .aboutus-div1-content p{
+        font-family:Grotesque ;
+        font-size: 2vw;
+        color: white;
+    }
+
+    .aboutus-div1-content .btn{
+        background-color: #d65416;
+        color: white;
+        text-align: center;
+        height:30px !important;
+        width: 100px !important;
+        font-family: Grotesque ;
+        font-size: 10pt !important;
+        padding-top: 6px !important;
+        font-family: GrotesquePro-Light;
+        font-weight: bold;
+        }
+
+
+}
+@media screen and (max-width:500px) and ( min-width:300px){
+    .aboutus-div1-content h1{
+        font-family: demi;
+        font-size:6vw;
+        color: white;
+    }
+    .aboutus-div1-content p{
+        font-family:Grotesque ;
+        font-size: 2.5vw;
+        color: white;
+    }
+
+    .aboutus-div1-content .btn{
+        background-color: #d65416;
+        color: white;
+        text-align: center;
+        height:30px !important;
+        width: 90px !important;
+        font-family: Grotesque ;
+        font-size: 10pt !important;
+        padding-top: 6px !important;
+        font-family: GrotesquePro-Light;
+        font-weight: bold;
+        }
+
+
+}
+.aboutus-div1-content .btn{
+
+
+
+background-color: #d65416;
+color: white;
+text-align: center;
+height:50px;
+width: 140px;
+font-family: Grotesque ;
+font-size: 15pt;
+padding-top: 10px;
+font-family: GrotesquePro-Light;
+font-weight: bold;
+}
+
+
+
+
+
+
+.about-div2-wrapper{
+    padding-top: 100px;
+
+}
+.home-div-9-wrapper .row{
+    padding-bottom: 30px;
+}
+
+.about-heading{
+    color: #222b5e;
+    font-family: demi;
+    font-size: 4vw;
+}
+.about-div9-container-text{
+    padding-bottom: 50px;
+}
+.about-div9-container-text p{
+    font-family: Grotesque ;
+    font-size: 1.6vw !important;
+    color: black
+
+}
+.home-div9-container-text h1{
+    font-family: MaisonNeueExt-Bold;
+    font-size: 30pt;
+    color: white;
+    font-weight: bold;
+
+}
+.about-row2 h1{
+    color: #222b5e;
+    font-family: MaisonNeueExt-Bold;
+    font-weight: bold;
+    font-size: 40pt;
+
+}
+.about-div2-col2-main{
+    padding-top: 80px;
+
+}
+.about-row2 p{
+    color: #222b5e;
+
+}
+@media screen and (max-width:1024px) and ( min-width:767px){
+    .about-heading{
+        color: #222b5e;
+        font-family: demi;
+        font-size: 3vw !important;
+    }
+    .about-div9-container-text p{
+        font-family: Grotesque ;
+        font-size: 1.6vw !important;
+        color: black
+    
+    }
+
+    
+
+
+}
+@media screen and (max-width:767px) and ( min-width:500px){
+    .about-heading{
+        color: #222b5e;
+        font-family: demi;
+        font-size: 5vw !important;
+    }
+    .about-div9-container-text p{
+        font-family: Grotesque ;
+        font-size: 2vw !important;
+        color: black
+    
+    }
+
+
+}
+@media screen and (max-width:500px) and ( min-width:300px){
+    .about-heading{
+        color: #222b5e;
+        font-family: demi;
+        font-size: 6vw !important;
+    }
+    .about-div9-container-text p{
+        font-family: Grotesque ;
+        font-size: 3.5vw !important;
+        color: black
+    
+    }
+
+    
+
+
+}
+
+/*div3*/
+.about-div3-content p{
+    font-family: demi !important;
+    font-size: 28pt !important;
+}
+
+
+.wrapper-conter-div4-about{
+    background-image: url(../images/41.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+.content-div3-about{
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+}
+.content-div3-about h1{
+    color: white;
+    font-family: demi;
+    font-weight: bold;
+}
+
+/*div4*/
+
+.div4-circle{
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+   color: #fff;
+    background: #7eccc1;
+    
+    
+    text-align: center;
+    font-size: 30pt;
+    
+}
+.about-div4-container{
+    padding-top: 100px;
+}
+.div4-main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-div4-circle-content{
+    
+    padding-top: 60px;
+    padding-left: 140px
+    
+
+}
+
+.about-div4-content h1{
+    color: #222b5e;
+    font-family:GrotesquePro ;
+    font-weight: bold;
+    font-size: 25pt;
+
+
+}
+.about-div4-content p{
+    font-family: Grotesque ;
+    color: #222b5e;
+    font-size: 15pt;
+}
+.about-div4-heading h1{
+    font-family: demi ;
+    font-weight: bold;
+    color: #222b5e;
+    font-size: 38pt;
+
+
+}
+.about-div4-heading p{
+    font-family: Grotesque ;
+    
+    color: #222b5e;
+    font-size: 20pt;
+
+
+}
+
+.about-div5-ser-3 p{
+   font-size: 13pt !important;
+    font-family: GrotesquePro-Light !important;
+}
+.about-div5-ser-3 .btn{
+    background-color: white;
+    color: #d65416;
+    text-align: center;
+    height:50px;
+    width: 130px;
+    font-family: Grotesque ;
+    font-size: 14pt;
+    padding-top: 10px;
+    font-family: GrotesquePro-Light;
+    font-weight: bold;
+    
+}
+.about-div2-main-heading-content p{
+    font-family: GrotesquePro-Light;
+    font-size: 15pt;
+    
+}
+
+@media only screen and (max-width:986px){
+    .about-div4-circle-content {
+    padding-left: 315px;
+
+    }
+    
+}
+@media only screen and (max-width:767px){
+    .about-div4-circle-content {
+    padding-left: 210px;
+
+    }
+}
+    @media only screen and (max-width:482px){
+        .about-div4-circle-content {
+        padding-left: 160px;
+    
+        }
+    }
+        @media only screen and (max-width:406px){
+            .about-div4-circle-content {
+            padding-left: 140px;
+        
+            }
+        }
+
+        @media only screen and (max-width:352px){
+            .about-div4-circle-content {
+            padding-left:125px;
+        
+            }
+        }
+/* div9*/
+.aboutus-div9-wrapper{
+    background-image: url(../images/42.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 30vh;
+}
+.aboutus-div9-content{
+    padding-top: 120px;
+}
+@media only screen and (max-width:500px) {
+    .aboutus-div9-content{
+        padding-top:80px;
+        
+    }
+
+    
+}
+
+
+/*performance eng*/
+
+.perfoeng-div1-img-wrap{
+    background-image: url('../images/28.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+.perfeng-img-col1 h6{
+    font-family:GrotesquePro ;
+    font-weight: bold;
+    font-size: 20pt;
+
+}
+.perfeng-img-col1 img{
+    padding-left: 0%;
+    padding-top: 0%;
+    width: 100%;
+    
+}
+.perfeng-img-col2 p{
+    font-family: demi !important;
+    font-size:15pt;
+}
+.perfeng-img-col2 .btn{
+    background-color: #f5833c;
+    color: white !important;
+    text-align: center;
+    height:55px;
+    width: 180px;
+    font-family: Grotesque ;
+    font-size: 18pt;
+    padding-top: 10px;  
+
+}
+
+/*div3*/
+.perfeng-content-main-div3 h1{
+    font-family: demi;
+    color: white;
+    font-size: 38pt;
+}
+.perfeng-content-main-div3 p{
+    font-family: demi;
+    font-size: 18pt;
+    color: white;
+}
+.perfeng-content-main-div3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.perforeng-wrape-dive3-img{
+    background-image: url(../images/44.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*div4*/
+
+.prefeng-bd-wrape-div4{
+    background-image: url(../images/49.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div-img29{
+    width: 559px;
+}
+.div-img38{
+    width: 560px;
+}
+.prefeng-div3-content{
+    background-color: #fff;
+    
+    padding-top: 50px;
+    padding-left: 50px;
+    
+
+}
+.prefeng-div3-content h1{
+    color: #222b5e;
+    font-family: demi;
+    font-size: 30pt;
+}
+.prefeng-div3-content p{
+    font-size: 12pt;
+    font-family: GrotesquePro-Light;
+
+}
+.content-prefeng-div4 h2{
+    color: #222b5e;
+    font-family: demi;
+    font-size: 30pt;
+
+}
+.content-prefeng-div4 p{
+    font-family: demi;
+    color: black;
+    font-size: 20pt;
+
+}
+
+
+
+
+.prefeng-div3-content .btn{
+border: solid 2px #f5833c;
+color: #f5833c !important;
+text-align: center;
+height:33px;
+width: 120px;
+font-family: Grotesque ;
+font-size: 12pt;
+padding-top: 2px;
+
+
+
+} 
+.prefeng-div4-heading h2{
+    color: #222b5e;
+    font-family: demi;
+    font-size: 38pt;
+}
+
+
+
+/*services div3*/
+.services-div35 img{
+    width: 100% !important;
+
+}
+.services-div3-content{
+    width: 100% !important;
+}
+
+.services-div35{
+    padding-left: 0%;
+
+}
+
+.services-div35{
+    
+    padding-right: 0px;
+
+}
+.services-div3-row2{
+    
+    padding-left: 15px;
+
+}
+.services-div3-row1{
+    padding-left: 15px;
+
+}
+.services-div3-row3{
+    padding-left: 14px;
+}
+
+.services-bd-wrape{
+    background-color: #222b5e;
+}
+.services-div3-heading {
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  
+}
+.services-div3-heading h2{
+    font-family: demi;
+    font-size: 38pt;
+}
+.services-div3-heading p{
+    font-family: Grotesque;
+    font-size: 18;
+    
+}
+
+.services-container{
+    padding-bottom: 100px;
+}
+
+/*div7*/
+.perfeng-div7-wrapper{
+    background-color: #222b5e;
+}
+
+.perfeng-div7-heading{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.perfeng-div7-heading h1{
+    font-family: demi;
+    font-weight: bold;
+    color: white;
+}
+
+.perfeng-div7-img{
+    padding-top: 0% !important;
+}
+.perfeng-div7-img img{
+    
+    width: 550px !important;
+    height: 450px !important;
+
+}
+.perfeng-div7-img h1{
+    color: white;
+    font-family:GrotesquePro ;
+    font-size: 30pt ;
+    font-weight: bold;
+
+}
+.perfeng-div7-img p{
+    color: white;
+    font-family: Grotesque;
+
+}
+.perfeng-div7-img{
+    padding-top: 0% !important;
+
+}
+/*div8*/
+
+.perfoeng-div8-img-wrap{
+    background-image: url("../images/52.png") !important;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    padding-top: 20pxpx;
+}
+
+/* performance moneting*/
+
+.perfmot-div1-wrap-img{
+    background-image: url('../images/53.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    
+
+}
+.perfmot-wrapper-div8-img{
+    background-image: url('../images/56.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.perfeng-div7-img img{
+    width: 100% !important;
+
+}
+/*performancetesting*/
+.perftest-wrapper-div8-img{
+    background-image: url('../images/63.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.preftest-div2-img{
+    width: 100%;
+}
+
+
+/*trouble*/
+
+.pertroubl-div1-wrapper-img{
+    background-image: url('../images/64.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    
+
+}
+/*div2*/
+.perftroub-div2-img img{
+    width: 100%;
+
+}
+
+
+
+.perftrouble-wrapper-div8-img{
+    background-image: url('../images/69.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.preftroub-main-heading h2{
+    color: #222b5e;
+    font-family: demi;
+    font-size: 38pt;
+
+}
+.preftroub-main-heading p{
+    font-family:GrotesquePro;
+    color: black;
+    font-size: 20pt;
+
+}
+.preftrouble-div3-content p{
+    font-family: GrotesquePro-Light;
+    font-size: 15pt;
+    color: #2f2f2f;
+
+
+}
+
+/*testing*/
+
+.preftest-img-wrape-div1{
+    background-image: url('../images/57.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.preftest-div2-img img{
+    width: 100%;
+
+
+}
+.prf-test-div3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.prf-test-div3 h2{
+    color: #222b5e ;
+    font-family: demi;
+    font-size: 38pt;
+    font-weight: bold;
+
+}
+.prf-test-div3 p{
+    color: #222b5e ;
+    font-family: demi;
+    font-size: 20pt;
+
+}
+
+
+/*relaible*/
+
+
+
+
+.relaible-div1-img{
+    background-image: url('../images/70.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.relaible-div2-img img{
+    width: 100%;
+
+}
+.relaible-wrapper-div8-img{
+    background-image: url('../images/74.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*industries*/
+
+.industries-div3-wrapper{
+    background-image: url('../images/10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.indus-div3-content h1{
+    color: #222b5e;
+
+}
+.indus-div3-content p{
+    color: black;
+
+}
+
+/*contactus*/
+
+.contact-div1{
+    
+    left: 750px;
+
+}
+@media screen and (max-width:1326px) and ( min-width:1000px){
+    .contact-div1{
+    
+        left:600px;
+    
+    }
+}
+@media screen and (max-width:1000px) and ( min-width:800px){
+    .contact-div1{
+    
+        left:400px;
+    
+    }
+}
+@media screen and (max-width:800px) and ( min-width:400px){
+    .contact-div1{
+    
+        left:200px;
+    
+    }
+}
+
+.contact-wrapper-img-div1{
+    background-image: url('../images/77.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    height: 25vh !important;
+   
+}
+.contact-wrapper-content-div1 {
+    padding-top:80px !important;
+
+}
+
+
+
+
+
+
+.contact-us-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.contact-us-main-heading  h1{
+    font-family:GrotesquePro ;
+    color: #222b5e;
+    font-weight: bold;
+    font-size: 38pt;
+
+}
+.contact-us-main-heading p{
+    font-family:Grotesque ;
+    color: #414141;
+    
+    font-size: 20pt;
+
+
+}
+.contact-us-img img{
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+
+}
+.contact-us-img p{
+    color: #2f2f2f;
+    font-family:Grotesque ;
+    font-size: 15pt;
+}
+
+@media screen and (max-width:1200px) and ( min-width:768px){
+    .contactus-boxes-textarea{
+        width: 100%;
+
+    }
+}
+@media only screen and (max-width:768px) {
+    .contactus-boxes-textarea{
+        width: 100%;
+
+    }
+}
+
+/*div3*/
+
+
+.contact-us-container-img{
+    background-image: url('../images/78.png');
+    
+    padding-top: 80px;
+    padding-bottom: 70px;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+}
+
+.contactus-boxes input  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+.contactus-boxes :placeholder-shown{
+    font-family:Grotesque ;
+    font-size: 16pt;
+    color: #414141;
+    
+}
+.contactus-boxes textarea{
+    border: 1px solid #ccc;
+    padding-bottom: 50px;
+
+}
+
+.contactus-div3-heading h1{
+    font-family:GrotesquePro ;
+    color: #222b5e;
+    font-weight: bold;
+    font-size: 38pt;
+
+}
+.contactus-div3-heading p{
+    font-family:Grotesque ;
+    color: #414141;
+    
+    font-size: 20pt;
+
+
+}
+.contact-us-container-img .btn{
+
+    background-color: #d65416;
+    color: white;
+    text-align: center;
+    height:50px;
+    width: 130px;
+    font-family: Grotesque ;
+    font-size: 14pt;
+    padding-top: 10px;
+    font-family: GrotesquePro-Light;
+    font-weight: bold;
+
+}
+.contact-us-btn{
+    padding-top: 25px;
+
+}
+.contact-us-main-container{
+    padding-bottom: 70px;
+}
+
+
+/*blog details*/
+.blog-detail-col1 h6{
+    color: #3f3f3f;
+    font-family:GrotesquePro ;
+    font-weight: bold;
+    font-size: 20pt;
+}
+.blog-detail-col1 h1{
+    color: #222b5e;
+    font-family:demi ;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.blog-detail-col1 p{
+    font-family: GrotesquePro-Light;
+    font-size: 15pt;
+
+}
+.blog-detail-col1 a{
+    color: #f47720;
+}
+.blog-detail-col2 p{
+    font-family:GrotesquePro ;
+    color: #b1b1b1;
+    font-weight: bold;
+    
+}
+.blog-detail-col2 i{
+    background-color: red;
+}
+
+
+.blog-detail-row2-col img{
+    width: 100%;
+
+}
+.blog-detail-row3-col h1{
+    font-family:GrotesquePro ;
+    font-size: 1.6vw;
+    font-weight: bold;
+
+}
+.blog-detail-row3-col p{
+    font-family: GrotesquePro-Light;
+    font-size: 1.6vw;
+
+}
+.blod-detail-row1{
+    padding-top: 50px;
+}
+.blod-detail-row2{
+    padding-top: 50px;
+}
+.blod-detail-row3{
+    padding-top: 50px;
+    
+
+}
+
+
+@media screen and (max-width:1024px) and ( min-width:767px){
+    h1{
+        
+        font-size: 3vw !important;
+    }
+    p{
+        
+        font-size: 1.6vw !important;
+        
+    
+    }
+
+    
+
+
+}
+@media screen and (max-width:767px) and ( min-width:500px){
+    h1{
+        font-size: 5vw !important;
+    }
+    p{
+       
+        font-size: 2vw !important;
+    
+    }
+
+
+}
+@media screen and (max-width:500px) and ( min-width:300px){
+    h1{
+        
+        font-size: 6vw !important;
+    }
+    p{
+        
+        font-size: 3.5vw !important;
+        
+    
+    }
+
+    
+
+
+}
+@media screen and (max-width:443) {
+    .test-cards{
+        height: 500px !important;
+
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    h5{
+        font-size: 15px !important;
+    }
+    .card-text{
+        padding-left:2% !important;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
