@@ -112,7 +112,7 @@ a:hover{
     }
     .one-div{
         margin-left: 0px !important;
-        font-size: 7px;
+        font-size: 6px;
         font-weight: 500;
         flex-wrap: nowrap !important;
     }
@@ -3533,7 +3533,16 @@ padding-top: 2px;
 
 
 
+@media only screen and (max-width: 1081px){
+    .nav-item{
+        margin-right: 3px !important;
+    }
+    .back-img-text{
+        padding: 200px 200px;
+    }
 
+
+}
 
 
 
@@ -3605,16 +3614,7 @@ padding-top: 2px;
         
     }
 }
-@media only screen and (max-width: 1081px){
-    .nav-item{
-        margin-right: 3px !important;
-    }
-    .back-img-text{
-        padding: 200px 200px;
-    }
 
-
-}
 
 @media only screen and (max-width: 990px) {
 	.navbar-nav.ml-lg-auto {
