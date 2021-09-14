@@ -329,7 +329,8 @@ ul li.active a{
 	padding: 5px 5px;
 	font-size: 18px;
 	line-height: 0.3;
-	background: #fff;
+	background: #fff !important;
+    
 }
 .navbar-light .navbar-nav .home-nav-link:focus, .navbar-light .navbar-nav .home-nav-link:hover {
 	color: #fff;
@@ -3618,11 +3619,12 @@ padding-top: 2px;
 
 @media only screen and (max-width: 990px) {
 	.navbar-nav.ml-lg-auto {
-		background: rgba(0, 0, 0, 0.5);
+		background: #fff;
 	}
 	.navbar-nav a {
-		font-size:5px;
-		font-weight: normal;
+		font-size:15px;
+		font-weight: 400;
+        text-align: left;
 	}
     
     
