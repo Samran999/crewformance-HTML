@@ -1,28 +1,5 @@
 
-@font-face {
-    font-family: "Arista" , sans-serif;
-    src: url('../fonts/Arista2.0\ Alternate\ light.ttf');
-}
-@font-face {
-    font-family: "demi", sans-serif;
-    src: url('MaisonNeueExt-Demi_0.ttf');
-}
-@font-face {
-    font-family: "Grotesque" , sans-serif ;
-    src: url('BasisGrotesquePro-Regular_0.ttf');
-}
-@font-face {
-    font-family:"GrotesquePro" ,sans-serif;
-    src: url('BasisGrotesquePro-Bold_1.ttf');
-}
-@font-face {
-    font-family: "GrotesquePro-Light" ,sans-serif;
-    src: url('BasisGrotesquePro-Light_0.ttf');
-}
-@font-face {
-    font-family: "MaisonNeueExt-Bold" , sans-serif;
-    src: url('MaisonNeueExt-Bold.ttf');
-}
+
 /* header */
 body{
     margin: 0 !important;
@@ -32,8 +9,7 @@ body{
 }
 html,
 body{
-    width:100%;
-    overflow-x: hidden;
+    overflow: overlay;
     
 }
 body::-webkit-scrollbar {
@@ -63,22 +39,48 @@ body::-webkit-scrollbar {
 a:hover{
     text-decoration: none !important;
 }
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: "Montserrat" ,sans-serif;
+}
+
 .top-header-wraper{
-    
     font-size:15px !important;
-    
-    font-family: "Grotesque" , sans-serif;
+}
+
+.item-one,.item-two,.item-three,.item-four{
     
 }
-.one-div{
-    padding: 2px 2px !important;
-    font-size: 15px;
-    margin-left: 15px !important;
-    vertical-align: middle;
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: space-evenly;
+    line-height: 0 !important;
+    padding: 10px 0px 10px 0px;
+    font-weight: 300 !important;
 }
+/* .item-one{
+    grid-column-start: ;
+    grid-column-end: ;
+}
+.item-two{
+    grid-column-start: ;
+    grid-column-end: ;
+}
+.item-three{
+    grid-column-start: ;
+    grid-column-end: ;
+}
+.item-four{
+    grid-column-start:;
+    grid-column-end: ;
+} */
 .social-icons a{
-    margin-left: 18px !important;
+    font-size: 15px;
+    font-weight: 400;
     color: #fff;
+    margin-left: 5px;
 }
 .bd-headercolor{
     background-color: #162557;
@@ -112,13 +114,13 @@ a:hover{
     }
     .one-div{
         margin-left: 0px !important;
-        font-size: 6px;
         font-weight: 500;
         flex-wrap: nowrap !important;
     }
     .top-header-img{
         width: 10px;
     }
+
     
 
 }
@@ -134,6 +136,7 @@ a:hover{
         
         
     }
+    
 }
 
 
@@ -167,12 +170,12 @@ a:hover{
 }
 .back-img-text h1{
     font-size: 45px;
-    font-family: "Darker Grotesque" ,sans-serif;
-    font-weight: 800;
+    
+    font-weight: 500;
 }
 .back-img-text p{
-    font-family: "Darker Grotesque" , sans-serif;
-    font-weight: 700;
+    
+    font-weight: 500;
     font-size: 22px !important;
 }
 .orng-btn{
@@ -194,7 +197,7 @@ a:hover{
 }
 .orng-btn a{
     color: #fff;
-    font-family: "Darker Grotesque" , sans-serif;
+    
     font-weight: 500;
     font-size: 15px;
     text-decoration: none;
@@ -230,7 +233,7 @@ a:hover{
 }
 .navbar-brand{
     color: white !important;
-    font-family:  "Arista" , sans-serif;
+   
 
     
 }
@@ -258,8 +261,8 @@ a:hover{
 .nav-btn a{
     color: #fff;
     font-size: 14px !important;
-    font-weight: 700;
-    font-family: "Darker Grotesque" , sans-serif ;
+    font-weight: 500;
+    
     text-decoration: none;
 }
 .nav-btn-dark{
@@ -282,14 +285,14 @@ a:hover{
 .nav-btn-dark a{
     color: #d65416;
     font-size: 14px !important;
-    font-weight: 700;
-    font-family: "Darker Grotesque" , sans-serif ;
+    font-weight: 500;
+    
     text-decoration: none;
 }
 
 .home-nav-link{
     color: white !important;
-    font-family: 'Darker Grotesque', sans-serif;
+    
     font-weight: 400;
     font-size: 18px !important;
 
@@ -360,7 +363,7 @@ ul li.active a{
 .home-div2-col2 h1{
     color: #222b5e;
     font-size: 47px !important;
-    font-family: "demi", sans-serif;
+    
 }
 
 .home-div2-col2 h2{
@@ -368,11 +371,11 @@ ul li.active a{
     color: #3f3f3f;
     font-weight: 500;
     font-size: 20px !important;
-    font-family:"GrotesquePro", sans-serif ;
+    
 }
 .home-div2-col2 p{
     padding-bottom: 30px;
-    font-family: "GrotesquePro-Light" , sans-serif;
+    
     font-size: 16px;
     font-weight: 500;
 }
@@ -412,7 +415,7 @@ ul li.active a{
     border:none;
     padding: 10px 20px;
     border-radius: 28px;
-    font-family:  "demi", sans-serif;
+    
     color: #fff !important;
     text-decoration: none !important;
     
@@ -427,7 +430,7 @@ ul li.active a{
     font-size: 15px !important;
     padding: 10px 20px;
     border-radius: 28px;
-    font-family:  "demi", sans-serif;
+    
     color: #d65416 !important;
     text-decoration: none !important;
 }
@@ -473,12 +476,12 @@ ul li.active a{
     padding-bottom: 80px;
 }
 .home-div3-content1 h1{
-    font-family: demi;
+    
     font-size: 38pt;
 
 }
 .home-div3-content1 p{
-    font-family: Grotesque ;
+    
     font-size: 14pt;
 
 
@@ -493,13 +496,12 @@ ul li.active a{
 
 /* div4 */
 .home-div4-content h1{
-    font-family: demi;
     color: #222b5e;
     font-size: 30pt;
-
+    margin-bottom: 23px;
 }
 .home-div4-content p{
-    font-family:GrotesquePro ;
+   
     
     font-size: 14pt;
     color: #3f3f3f;
@@ -515,7 +517,7 @@ color: white;
 text-align: center;
 height:50px;
 width: 16   0px;
-font-family: Grotesque ;
+
 font-size: 16pt;
 padding-top: 10px;
 }
@@ -524,7 +526,7 @@ padding-top: 10px;
 .home-div4-img{
     padding-left: 50px;
     padding-top: 50px;
-    text-align: center;
+    width: 100%;
 }
 .home-div4-row{
     padding-top: 100px;
@@ -713,11 +715,11 @@ padding-top: 10px;
 
 .home-dive5-content h1{
     font-size: 38pt;
-    font-family: demi;
+    
     color: #222b5e;
 }
 .home-dive5-content p{
-    font-family: GrotesquePro-Light;
+    
     font-size: 16pt;
 
 }
@@ -728,10 +730,10 @@ padding-top: 10px;
     text-align: center;
     height:50px;
     width: 130px;
-    font-family: Grotesque ;
+    
     font-size: 14pt;
     padding-top: 10px;
-    font-family: GrotesquePro-Light;
+    
     font-weight: bold;
 }
 @media screen and (max-width:767px){
@@ -742,10 +744,10 @@ padding-top: 10px;
         text-align: center;
         height:30px;
         width: 90px;
-        font-family: Grotesque ;
+        
         font-size: 9pt;
         padding-top: 6px;
-        font-family: GrotesquePro-Light;
+        
         font-weight: bold;
     }
 
@@ -773,11 +775,11 @@ padding-top: 10px;
 
 .home-div6-content h1{
     font-size: 38pt;
-    font-family: demi;
+    
     color: white;
 }
 .home-div6-content p{
-    font-family: GrotesquePro-Light;
+    
     color: white;
     font-size: 16pt;
 
@@ -789,10 +791,10 @@ padding-top: 10px;
     text-align: center;
     height:40px;
     width: 110px;
-    font-family: Grotesque ;
+    
     font-size: 13pt;
     padding-top: 8px;
-    font-family: GrotesquePro-Light;
+    
     font-weight: bold;
 }
 
@@ -811,10 +813,10 @@ padding-top: 10px;
         text-align: center;
         height:30px;
         width: 90px;
-        font-family: Grotesque ;
+        
         font-size: 9pt;
         padding-top: 6px;
-        font-family: GrotesquePro-Light;
+        
         font-weight: bold;
     }
 
@@ -1044,7 +1046,7 @@ font-weight: bold;
         left: 20px;
         color: white;
         font-size: 18pt;
-        font-family:"GrotesquePro", sans-serif ;
+        
         font-weight: bold;
         
     }
@@ -1053,13 +1055,13 @@ font-weight: bold;
     
     }
     .home-Industries-heading{
-        font-family: "Arista" , sans-serif;
+        
         text-align: center;
         padding-top: 50px;
         padding-bottom: 50px;
     }
     .home-Industries-heading h1{
-        font-family: demi;
+        
         color: #222b5e;
         font-size: 38pt;
     }
@@ -1077,10 +1079,10 @@ font-weight: bold;
         text-align: center;
         height:50px;
         width: 130px;
-        font-family: Grotesque ;
+        
         font-size: 14pt;
         padding-top: 10px;
-        font-family: GrotesquePro-Light;
+        
         font-weight: bold;
 
 
@@ -1175,7 +1177,7 @@ font-weight: bold;
         text-align: center;
     }
     .services-div8-content-card h1{
-        font-family: demi;
+        
         color: #222b5e;
         font-size: 38pt;
 
@@ -1317,14 +1319,14 @@ font-weight: bold;
         padding-bottom: 50px;
     }
     .home-div-9-content h1{
-        font-family: demi;
+        
         color: white;
         font-size: 38pt;
 
 
     }
    .home-div-9-content p{
-    font-family: Grotesque ;
+    
     font-size: 16pt;
     color: white;
    }
@@ -1337,13 +1339,13 @@ font-weight: bold;
         padding-bottom: 30px;
     }
     .home-div9-container-text p{
-        font-family: Grotesque ;
+        
         font-size: 14pt ;
         color: white;
 
     }
     .home-div9-container-text h1{
-        font-family: MaisonNeueExt-Bold;
+        
         font-size: 38pt;
         color: white;
         font-weight: bold;
@@ -1395,14 +1397,14 @@ font-weight: bold;
           padding-top: 70px;
       }
       .test-heading h1{
-        font-family:"demi" , sans-serif;
+        
         font-size: 38pt;
 
       }
       .test-heading p{
-        font-family:"GrotesquePro" ,sans-serif ;
+        
         font-size:20pt;
-        font-weight: bold;
+        font-weight: 500;
 
       }
       
@@ -1414,18 +1416,18 @@ font-weight: bold;
           padding-bottom: 80px;
       }
       .test-container p{
-        font-family: "Grotesque" ,sans-serif ;
+        
         font-size:12pt;
 
       }
       .writer-desigination{
           color: #d65416;
-          font-family:"Grotesque" ,sans-serif; 
+          
           font-size: 10pt;
       }
       .writer-name{
           color: #222b5e;
-          font-family:"GrotesquePro" ,sans-serif; 
+           
           font-weight: bold;
           font-size: 14pt;
       }
@@ -1449,7 +1451,7 @@ font-weight: bold;
     
     }
     .home-div11-heading h1{
-        font-family: "demi" ,sans-serif;
+        
         color: #222b5e;
         font-size:38pt;
     }
@@ -1529,7 +1531,7 @@ font-weight: bold;
     */
 
     .home-div12-wrapper h1{
-        font-family: demi;
+        
         font-size: 30pt;
     }
     .home-div12-wrapper .btn{
@@ -1596,7 +1598,7 @@ font-weight: bold;
     .nav-indus-link{
         color: #222b5e !important;
         
-    font-family: 'Darker Grotesque', sans-serif;
+    
     font-weight: 400;
     font-size: 18px !important;
     
@@ -1615,7 +1617,7 @@ font-weight: bold;
         color: white !important;
         
         
-        font-family: 'Darker Grotesque', sans-serif;
+        
     
     }
     
@@ -1698,19 +1700,19 @@ font-weight: bold;
     padding-bottom: 30px;
 }
 .blog-div1-heading h1{
-    font-family:GrotesquePro ;
+    
     color: #294e60;
     font-weight: bold;
     font-size: 40pt;
 
 }
 .blog-div1-col2 h1{
-    font-family:GrotesquePro ;
+    
     
 
 }
 .blog-div1-col2 p{
-    font-family: GrotesquePro-Light;
+    
     font-size: 13pt;
 
 }
@@ -2003,12 +2005,12 @@ font-weight: bold;
 .services-di2-heading h1{
     color: #222b5e;
     font-size: 38pt;
-    font-family: "demi" ,sans-serif;
+    
     
 
 }
 .services-div2-content p{
-    font-family: "GrotesquePro-Light" ,sans-serif;
+    
     font-size: 16pt;
     
 }
@@ -2049,11 +2051,11 @@ font-weight: bold;
   
 }
 .services-div3-heading h2{
-    font-family: "demi" ,sans-serif;
+    
     font-size: 38pt;
 }
 .services-div3-heading p{
-    font-family: "Grotesque" ,sans-serif;
+    
     font-size: 18;
     
 }
@@ -2198,12 +2200,12 @@ font-weight: bold;
 }
 
 .services-div4-content-card h1{
-    font-family: demi;
+    
     color: white;
     font-size: 38pt;
 }
 .services-div4-content-card p{
-    font-family:Grotesque ;
+    
     font-size: 20pt;
     color: white;
     
@@ -2403,12 +2405,12 @@ font-weight: bold;
 
 
 .aboutus-div1-content h1{
-    font-family: "demi" , sans-serif;
+     
     font-size: 38pt;
     color: white;
 }
 .aboutus-div1-content p{
-    font-family:"Grotesque" , sans-serif ;
+    
     font-size: 17pt;
     color: white;
 }
@@ -2504,10 +2506,10 @@ color: white;
 text-align: center;
 height:50px;
 width: 140px;
-font-family: Grotesque ;
+ 
 font-size: 15pt;
 padding-top: 10px;
-font-family: GrotesquePro-Light;
+
 font-weight: bold;
 }
 
@@ -2527,20 +2529,20 @@ font-weight: bold;
 
 .about-heading{
     color: #222b5e;
-    font-family: demi;
+    
     font-size:38pt;
 }
 .about-div9-container-text{
     padding-bottom: 50px;
 }
 .about-div9-container-text p{
-    font-family: Grotesque ;
+    
     font-size: 15   pt !important;
     color: black
 
 }
 .home-div9-container-text h1{
-    font-family: MaisonNeueExt-Bold;
+      
     font-size: 30pt;
     color: white;
     font-weight: bold;
@@ -2548,7 +2550,7 @@ font-weight: bold;
 }
 .about-row2 h1{
     color: #222b5e;
-    font-family: MaisonNeueExt-Bold;
+    
     font-weight: bold;
     font-size: 40pt;
 
@@ -2564,11 +2566,11 @@ font-weight: bold;
 @media screen and (max-width:1024px) and ( min-width:767px){
     .about-heading{
         color: #222b5e;
-        font-family: demi;
+        
         font-size: 3vw !important;
     }
     .about-div9-container-text p{
-        font-family: Grotesque ;
+        
         font-size: 1.6vw !important;
         color: black
     
@@ -2581,11 +2583,11 @@ font-weight: bold;
 @media screen and (max-width:767px) and ( min-width:500px){
     .about-heading{
         color: #222b5e;
-        font-family: demi;
+        
         font-size: 5vw !important;
     }
     .about-div9-container-text p{
-        font-family: Grotesque ;
+        
         font-size: 2vw !important;
         color: black
     
@@ -2596,11 +2598,11 @@ font-weight: bold;
 @media screen and (max-width:500px) and ( min-width:300px){
     .about-heading{
         color: #222b5e;
-        font-family: demi;
+        
         font-size: 6vw !important;
     }
     .about-div9-container-text p{
-        font-family: Grotesque ;
+        
         font-size: 3.5vw !important;
         color: black
     
@@ -2623,7 +2625,7 @@ font-weight: bold;
 
 /*div3*/
 .about-div3-content p{
-    font-family: "demi" , sans-serif ;
+    
     font-size: 28pt !important;
 }
 
@@ -2644,7 +2646,7 @@ font-weight: bold;
 }
 .content-div3-about h1{
     color: white;
-    font-family: demi;
+     
     font-weight: bold;
 }
 
@@ -2668,7 +2670,7 @@ font-weight: bold;
 
 .aboutus-div4-col1 h3{
     color: #222b5e;
-    font-family:"GrotesquePro" ,sans-serif;
+     
     font-weight: 600;
     margin-top: 2px;
     
@@ -2679,13 +2681,13 @@ font-weight: bold;
     padding-bottom: 20px;
 }
 .aboutus-div4-col1 p{
-    font-family: "Grotesque" ,sans-serif ;
+    
     color: #222b5e;
     width: 330px;
     
 }
 .about-div4-heading h1{
-    font-family: "demi" ,sans-serif ;
+   
     font-weight: 600;
     color: #222b5e;
     font-size: 38pt;
@@ -2693,7 +2695,7 @@ font-weight: bold;
 
 }
 .about-div4-heading p{
-    font-family: "Grotesque" ,sans-serif;
+   
     
     color: #222b5e;
     font-size: 20pt;
@@ -2722,7 +2724,7 @@ font-weight: bold;
 
 .about-div5-ser-3 p{
    font-size: 13pt !important;
-    font-family: GrotesquePro-Light !important;
+   
 }
 .about-div5-ser-3 .btn{
     background-color: white;
@@ -2730,15 +2732,15 @@ font-weight: bold;
     text-align: center;
     height:50px;
     width: 130px;
-    font-family: Grotesque ;
+    
     font-size: 14pt;
     padding-top: 10px;
-    font-family: GrotesquePro-Light;
+    
     font-weight: bold;
     
 }
 .about-div2-main-heading-content p{
-    font-family: GrotesquePro-Light;
+    
     font-size: 15pt;
     
 }
@@ -2804,7 +2806,7 @@ font-weight: bold;
 
 
 .perfeng-img-col1 h6{
-    font-family:GrotesquePro ;
+    
     font-weight: bold;
     font-size: 20pt;
 
@@ -2816,7 +2818,7 @@ font-weight: bold;
     
 }
 .perfeng-img-col2 p{
-    font-family: demi !important;
+    
     font-size:15pt;
 }
 .perfeng-img-col2 .btn{
@@ -2825,7 +2827,7 @@ font-weight: bold;
     text-align: center;
     height:55px;
     width: 180px;
-    font-family: Grotesque ;
+    
     font-size: 18pt;
     padding-top: 10px;  
 
@@ -2835,12 +2837,12 @@ font-weight: bold;
 
 /*div3*/
 .perfeng-content-main-div3 h1{
-    font-family: demi;
+    
     color: white;
     font-size: 38pt;
 }
 .perfeng-content-main-div3 p{
-    font-family: demi;
+    
     font-size: 14pt;
     color: white;
 }
@@ -2878,22 +2880,22 @@ font-weight: bold;
 }
 .prefeng-div3-content h1{
     color: #222b5e;
-    font-family: demi;
+    
     font-size: 30pt;
 }
 .prefeng-div3-content p{
     font-size: 12pt;
-    font-family: GrotesquePro-Light;
+    
 
 }
 .content-prefeng-div4 h2{
     color: #222b5e;
-    font-family: demi;
+    
     font-size: 30pt;
 
 }
 .content-prefeng-div4 p{
-    font-family: demi;
+    
     color: black;
     font-size: 20pt;
 
@@ -2908,7 +2910,7 @@ color: #f5833c !important;
 text-align: center;
 height:33px;
 width: 120px;
-font-family: Grotesque ;
+
 font-size: 12pt;
 padding-top: 2px;
 
@@ -2917,7 +2919,7 @@ padding-top: 2px;
 } 
 .prefeng-div4-heading h2{
     color: #222b5e;
-    font-family: demi;
+    
     font-size: 38pt;
 }
 
@@ -2946,7 +2948,7 @@ padding-top: 2px;
     padding-bottom: 50px;
 }
 .perfeng-div7-heading h1{
-    font-family: demi;
+   
     font-weight: bold;
     color: white;
 }
@@ -2963,14 +2965,14 @@ padding-top: 2px;
 
 .perfeng-div7-img h1{
     color: white;
-    font-family:GrotesquePro ;
+    
     font-size: 28pt ;
     
 
 }
 .perfeng-div7-img p{
     color: white;
-    font-family: Grotesque;
+    
     font-size: 15pt !important;
 
 }
@@ -3002,7 +3004,7 @@ padding-top: 2px;
 }
 .services-div3-content{
     width: 100% !important;
-    font-family:font-family: "demi", sans-serif; ;
+    
 }
 
 .services-div35{
@@ -3038,11 +3040,11 @@ padding-top: 2px;
   
 }
 .services-div3-heading h2{
-    font-family: demi;
+    
     font-size: 38pt;
 }
 .services-div3-heading p{
-    font-family: Grotesque;
+    
     font-size: 18;
     
 }
@@ -3166,18 +3168,18 @@ padding-top: 2px;
 
 .preftroub-main-heading h2{
     color: #222b5e;
-    font-family: demi;
+    
     font-size: 38pt;
 
 }
 .preftroub-main-heading p{
-    font-family:GrotesquePro;
+    
     color: black;
     font-size: 20pt;
 
 }
 .preftrouble-div3-content p{
-    font-family: GrotesquePro-Light;
+    
     font-size: 15pt;
     color: #2f2f2f;
 
@@ -3207,14 +3209,14 @@ padding-top: 2px;
 
 .prf-test-div3 h2{
     color: #222b5e ;
-    font-family: demi;
+    
     font-size: 38pt;
     font-weight: bold;
 
 }
 .prf-test-div3 p{
     color: #222b5e ;
-    font-family: demi;
+    
     font-size: 20pt;
 
 }
@@ -3296,14 +3298,14 @@ padding-top: 2px;
 }
 
 .contact-us-main-heading  h1{
-    font-family:GrotesquePro ;
+    
     color: #222b5e;
     font-weight: bold;
     font-size: 38pt;
 
 }
 .contact-us-main-heading p{
-    font-family:Grotesque ;
+    
     color: #414141;
     
     font-size: 18pt;
@@ -3320,7 +3322,7 @@ padding-top: 2px;
 }
 .contact-us-img p{
     color: #2f2f2f;
-    font-family:Grotesque ;
+    
     font-size: 15pt;
 }
 
@@ -3350,7 +3352,7 @@ padding-top: 2px;
 
 }
 .contactus-boxes :placeholder-shown{
-    font-family:"Grotesque" ,sans-serif ;
+    
     font-size: 15px;
     color: #414141;
     
@@ -3362,14 +3364,14 @@ padding-top: 2px;
 }
 
 .contactus-div3-heading h1{
-    font-family:GrotesquePro ;
+    
     color: #222b5e;
     font-weight: bold;
     font-size: 38pt;
 
 }
 .contactus-div3-heading p{
-    font-family:Grotesque ;
+    
     color: #414141;
     
     font-size: 20pt;
@@ -3383,10 +3385,10 @@ padding-top: 2px;
     text-align: center;
     height:50px;
     width: 130px;
-    font-family:" Grotesque " , sans-serif;
+    
     font-size: 14pt;
     padding-top: 10px;
-    font-family: "GrotesquePro-Light" , sans-serif;
+    
     font-weight: 700;
 
 }
@@ -3409,7 +3411,7 @@ padding-top: 2px;
 /*blog details*/
 .blog-detail-col1 h6{
     color: #3f3f3f;
-    font-family:GrotesquePro ;
+    
     font-weight: bold;
     font-size: 20pt;
 }
@@ -3420,7 +3422,7 @@ padding-top: 2px;
     font-weight: bold;
 }
 .blog-detail-col1 p{
-    font-family: GrotesquePro-Light;
+    
     font-size: 15pt;
 
 }
@@ -3428,7 +3430,7 @@ padding-top: 2px;
     color: #f47720;
 }
 .blog-detail-col2 p{
-    font-family:GrotesquePro ;
+    
     color: #b1b1b1;
     font-weight: bold;
     
@@ -3443,13 +3445,13 @@ padding-top: 2px;
 
 }
 .blog-detail-row3-col h1{
-    font-family:"GrotesquePro" ,sans-serif ;
+    
     font-size: 25px;
     font-weight: 600;
 
 }
 .blog-detail-row3-col p{
-    font-family: "GrotesquePro-Light" , sans-serif;
+    
     font-size: 15px;
     line-height: 1.2rem;
     font-weight: 400;
@@ -3553,11 +3555,11 @@ padding-top: 2px;
     }
     .back-img-text h1{
         font-size: 30px;
-        font-family: "Darker Grotesque" ,sans-serif;
+        
         font-weight: 800;
     }
     .back-img-text p{
-        font-family: "Darker Grotesque" , sans-serif;
+        
         font-weight: 700;
         font-size: 18px !important;
     }
@@ -3574,7 +3576,7 @@ padding-top: 2px;
     }
     .orng-btn a{
         color: #fff;
-        font-family: "Darker Grotesque" , sans-serif;
+        
         font-weight: 700;
         font-size: 15px;
         text-decoration: none;
@@ -3591,16 +3593,16 @@ padding-top: 2px;
         font-size: 12pt !important;
     }
     .back-img-text{
-        padding: 200px 23px;
+        padding: 150px 23px;
     }
     .back-img-text h1{
-        font-size: 20px;
-        font-family: "Darker Grotesque" ,sans-serif;
-        font-weight: 800;
+        font-size: 27px;
+        
+        font-weight: 500;
     }
     .back-img-text p{
-        font-family: "Darker Grotesque" , sans-serif;
-        font-weight: 700;
+        
+        font-weight: 500;
         font-size: 15px !important;
     }
     .slick-dots{
@@ -3614,6 +3616,103 @@ padding-top: 2px;
         border-width:0.01 !important;
         
     }
+    .home-div2-col2 h1{
+        font-size: 35px !important;
+    }
+    .home-div3-content1 h1{
+        font-size: 32pt;
+    }
+    .home-div4-content h1 {
+        color: #222b5e;
+        font-size: 19pt;
+        text-align: center;
+        margin: 23px 0px;
+        
+    }
+    .home-div4-img {
+        text-align: center;
+        padding-left: 10px;
+        /* width: 300px; */
+        width: 100%;
+    }
+    .home-dive5-content h1 {
+        font-size: 31pt;
+        color: #222b5e;
+    }
+    .home-dive5-content p {
+        font-size: 13pt;
+        font-weight: 500;
+    }
+    .home-div6-content h1 {
+        font-size: 31pt;
+        color: white;
+        text-align: left !important;
+    }
+    .home-div6-content p {
+        font-size: 13pt;
+        font-weight: 500;
+    }
+    .home-Industries-heading h1 {
+        color: #222b5e;
+        font-size: 31pt;
+    }
+    .padding-left{
+        padding-left: 0px !important;
+    }
+    .home-card1-text {
+        font-size: 20pt;
+    }
+    .home-card1-text {
+        position: relative;
+        top: -210px !important;
+        left: 20px;
+        color: white;
+        font-size: 18pt;
+        font-weight: 500;
+    }
+    .services-div8-content-card h1 {
+        color: #222b5e;
+        font-size: 31pt;
+    }
+    .home-div-9-content h1 {
+        color: white;
+        font-size: 31pt;
+    }
+    .test-heading h1 {
+        font-size: 31pt;
+    }
+    .test-heading p {
+        font-size: 16pt;
+        font-weight: 500;
+    }
+    .home-div11-heading h1 {
+        color: #222b5e;
+        font-size: 31pt;
+    }
+    .for-corporate{
+        margin-bottom: 30px;
+        padding: 0px 31px;
+    }
+    .home-div12-wrapper h1 {
+        font-size: 18pt;
+        text-align: center;
+    }
+    .fil-orng {
+        outline: none;
+        background: #d65416;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 28px;
+        color: #fff !important;
+        text-decoration: none !important;
+    }
+    .margin-top{
+        margin-top: 23px;
+    }
+    .sm-text-center{
+        text-align: center;
+    }
+    
 }
 
 .dropdown-menu{
@@ -3629,17 +3728,33 @@ padding-top: 2px;
 		font-weight: 400;
         text-align: left;
 	}
+    .one-div{
+        display: grid;
+        grid-template-columns: 2fr 1.5fr;
+        grid-gap: 1px;
+    }
+    .item-one{
+        display: none;
+    }
+    .item-three{
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
     
+    .social-icons a{
+        
+        
+    }
     
     
     .indus-nav-item-btn{
         border:0.5px solid #FFFFFF !important;
         color: white;
-        font-family: Grotesque ;
+        
         text-align: center;
         height:30px !important;
         width: 100px !important;
-        font-family: Grotesque ;
+        
         font-size: 10pt !important;
         padding-top: 4px !important;
 
@@ -3652,14 +3767,14 @@ padding-top: 2px;
      
     .navbar-brand{
         color: white !important;
-        font-family: "Arista" , sans-serif;
+        
         
         
     }
     .home-nav-link{
         color: white !important;
         font-size: 15px !important;
-        font-family: 'Darker Grotesque', sans-serif;
+        
     
     }
     
@@ -3672,7 +3787,7 @@ padding-top: 2px;
 @media only screen and (max-width:624px){
     .navbar-brand{
         color: white !important;
-        font-family:  "Arista" ,sans-serif !important;
+        
         
     }
     .home-navbar{
@@ -3694,7 +3809,7 @@ padding-top: 2px;
 
     .navbar-brand{
         color: white !important;
-        font-family: " Arista" ,sans-serif !important;
+        
         
         
     }
@@ -3719,7 +3834,7 @@ padding-top: 2px;
 
     .navbar-brand{
         color: white !important;
-        font-family:  "Arista", sans-serif !important;
+        
         
         
     }
@@ -3857,14 +3972,14 @@ padding-top: 2px;
 @media screen and (max-width:1200px) and (min-width:991px){
     .perfeng-div7-img h1{
         color: white;
-        font-family:GrotesquePro ;
+        
         font-size: 20pt !important;
         
     
     }
     .perfeng-div7-img p{
         color: white;
-        font-family: Grotesque;
+        
         font-size: 13pt !important;
     
     }
@@ -3904,11 +4019,37 @@ padding-top: 2px;
     
     
 }
+
+.dd{
+    display: none;
+}
 @media screen and (max-width:474px){
     .prefeng-div3-content{
         padding-left: 20px;
     }
-
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px 10px 0px;
+        font-weight: 300 !important;
+    }
+    .fflex .item-two{
+        margin-right: 10px;
+    }
+    .da{
+        display: none;
+    }
+    .dd{
+        display: inline-block;
+    }
+.fflex{
+    display: inline-flex;
+    align-items: revert;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
 }
 @media only screen and (max-width: 990px) {
