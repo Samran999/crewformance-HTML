@@ -9,7 +9,7 @@ body{
 }
 html,
 body{
-    overflow: overlay;
+    overflow-x: hidden;
     
 }
 body::-webkit-scrollbar {
@@ -1596,81 +1596,10 @@ font-weight: bold;
         color: #222b5e;
     }
     .nav-indus-link{
-        color: #222b5e !important;
-        
-    
+    color: #222b5e !important;
     font-weight: 400;
-    font-size: 18px !important;
-    
-    
-    
+    font-size: 14px !important;
     }
-    
-
-
-  
-
-@media only screen and (max-width: 1504px) {
-     
-    
-    .home-nav-link{
-        color: white !important;
-        
-        
-        
-    
-    }
-    
-    .nav-indus-link{
-        color: #222b5e !important;
-    
-        
-    
-    }
-
-    
-}
-@media only screen and (max-width: 1244px) {
-     
-    
-    .nav-indus-link{
-        color: #222b5e !important;
-    
-        
-    
-    }
-   
-
-    
-}
-@media only screen and (max-width: 1080px) {
-     
-    
-    .nav-indus-link{
-        color: #222b5e !important;
-    
-        font-size: 13pt !important;
-    
-    }
-   
-
-    
-}
-@media only screen and (max-width: 1012px) {
-     
-    
-    .nav-indus-link{
-        color: #222b5e !important;
-    
-        
-    
-    }
-    
-
-    
-}
-
-
 .blog-fb-img{
     width: 30px;
     display: block;
@@ -2408,6 +2337,7 @@ font-weight: bold;
      
     font-size: 38pt;
     color: white;
+    margin-bottom: 23px;
 }
 .aboutus-div1-content p{
     
@@ -2563,55 +2493,9 @@ font-weight: bold;
     color: #222b5e;
 
 }
-@media screen and (max-width:1024px) and ( min-width:767px){
-    .about-heading{
-        color: #222b5e;
-        
-        font-size: 3vw !important;
-    }
-    .about-div9-container-text p{
-        
-        font-size: 1.6vw !important;
-        color: black
-    
-    }
-
-    
 
 
-}
-@media screen and (max-width:767px) and ( min-width:500px){
-    .about-heading{
-        color: #222b5e;
-        
-        font-size: 5vw !important;
-    }
-    .about-div9-container-text p{
-        
-        font-size: 2vw !important;
-        color: black
-    
-    }
 
-
-}
-@media screen and (max-width:500px) and ( min-width:300px){
-    .about-heading{
-        color: #222b5e;
-        
-        font-size: 6vw !important;
-    }
-    .about-div9-container-text p{
-        
-        font-size: 3.5vw !important;
-        color: black
-    
-    }
-
-    
-
-
-}
 .margin-minus{
     margin-top: -10px;
 }
@@ -3712,6 +3596,51 @@ padding-top: 2px;
     .sm-text-center{
         text-align: center;
     }
+    .aboutus-div1-content h1 {
+        font-size: 31pt;
+        color: white;
+    }
+    .about-heading {
+        color: #222b5e;
+        font-size: 31pt !important;
+    }
+    .about-div9-container-text p {
+        font-size: 15pt;
+        color: black;
+    }
+    .content-div3-about h1 {
+        color: white;
+        font-weight: 600;
+        font-size: 31pt;
+    }
+    .about-div4-heading h1 {
+        font-weight: 600;
+        color: #222b5e;
+        font-size: 31pt;
+    }
+    .about-div4-heading p {
+        color: #222b5e;
+        font-size: 16pt;
+    }
+    .aboutus-div1-content h1 {
+        font-size: 31pt;
+        color: white;
+    }
+    .services-di2-heading h1 {
+        color: #222b5e;
+        font-size: 31pt;
+    }
+    .services-div3-heading h2 {
+        font-size: 31pt;
+    }
+    .services-div4-content-card h1 {
+        color: white;
+        font-size: 31pt;
+    }
+    .services-div4-content-card p {
+        font-size: 15pt;
+        color: white;
+    }
     
 }
 
@@ -3721,7 +3650,7 @@ padding-top: 2px;
 }
 @media only screen and (max-width: 990px) {
 	.navbar-nav.ml-lg-auto {
-		background: #;
+		
 	}
 	.navbar-nav a {
 		font-size:15px;
