@@ -7,9 +7,12 @@ body{
     box-sizing: border-box !important;
     
 }
+
 html,
 body{
     overflow-x: hidden;
+    width: 100%;
+    overflow-y: overlay;
     
 }
 body::-webkit-scrollbar {
@@ -382,7 +385,7 @@ ul li.active a{
 
 
  .tick{
-     display: inline-flex;
+     display: flex;
      flex-direction: row;
      align-items: baseline;
  }
@@ -592,7 +595,7 @@ padding-top: 10px;
     padding-top: 100px;
     padding-bottom: 150px !important;
     
-    padding-left: 500px;
+    padding-left: 420px;
 
    
     
@@ -601,7 +604,7 @@ padding-top: 10px;
 
 @media screen and (max-width:1006px) {
     .home-dive5-content{  
-        padding-left: 300px;
+        padding-left: 270px;
     
        
         
@@ -611,29 +614,7 @@ padding-top: 10px;
 }
 @media screen and (max-width:806px){
     .home-dive5-content{  
-        padding-left: 200px;
-    
-       
-        
-       
-    }
-    
-
-}
-@media screen and (max-width:576px){
-    .home-dive5-content{  
-        padding-left:60px;
-    
-       
-        
-       
-    }
-    
-
-}
-@media screen and (max-width:365px){
-    .home-dive5-content{  
-        padding-left:50px;
+        padding-left: 85px;
     
        
         
@@ -643,17 +624,9 @@ padding-top: 10px;
 
 }
 
-@media screen and (max-width:318px){
-    .home-dive5-content{  
-        padding-left:10px;
-    
-       
-        
-       
-    }
-    
 
-}
+
+
 
 /*
 @media screen and (max-width:1242px) {
@@ -798,12 +771,7 @@ padding-top: 10px;
     font-weight: bold;
 }
 
-@media only screen and (max-width:767px) {
-    .home-div6-content{
-        padding-left: 50px;
-    }
-    
-}
+
 
 @media screen and (max-width:767px){
     .home-div6-content .btn{
@@ -1052,6 +1020,7 @@ font-weight: bold;
     }
     .home-img-thumbnail{
         position: relative;
+        width: 100%;
     
     }
     .home-Industries-heading{
@@ -1069,6 +1038,7 @@ font-weight: bold;
         background-image: url('../images/10.png');
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 0px 12px;
     }
     .home-industries-container a{
         text-decoration: none;
@@ -1088,11 +1058,7 @@ font-weight: bold;
 
     }
     @media only screen and (max-width:767px) {
-        .home-industries-container{
-            
-            padding-left: 70px;
-
-        }
+        
         .home-card1-text{
             
             font-size: 20pt;
@@ -1101,11 +1067,7 @@ font-weight: bold;
         
     }
     @media only screen and (max-width:500px) {
-        .home-industries-container{
-            
-            padding-left: 30px;
-
-        }
+        
         .home-card1-text{
             
             font-size: 22pt;
@@ -1327,13 +1289,15 @@ font-weight: bold;
     }
    .home-div-9-content p{
     
-    font-size: 16pt;
+    font-size: 13pt;
+    margin-top: 21px;
     color: white;
    }
     .home-div-9-wrapper{
         background-image: url(../images/32.png);
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 0px 12px;
     }
     .home-div-9-wrapper .row{
         padding-bottom: 30px;
@@ -1410,6 +1374,7 @@ font-weight: bold;
       
       .test-bd-crl{
           background-color: #222b5e;
+          padding: 0px 12px;
       }
       
       .test-container{
@@ -1465,6 +1430,9 @@ font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.over-padding{
+    padding: 0px 12px;
 }
 .flx{
     display: flex;
@@ -2921,6 +2889,8 @@ padding-top: 2px;
     color: white;
     padding-top: 100px;
     padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   
 }
 .services-div3-heading h2{
@@ -3468,9 +3438,21 @@ padding-top: 2px;
     
 }
 @media screen and (max-width:576px){
+    .home-dive5-content{  
+        padding-left:12px;
+        padding-right: 12px;
+    }
+    .home-div6-content{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+
+}
+@media screen and (max-width:576px){
     .performance-div6-content{
         
-    padding-left: 20px !important;
+    padding: 0px 22px !important;
 
     }
     .perfeng-div7-img p{
@@ -3513,6 +3495,7 @@ padding-top: 2px;
         margin: 23px 0px;
         
     }
+    .
     .home-div4-img {
         text-align: center;
         padding-left: 10px;
@@ -3520,7 +3503,8 @@ padding-top: 2px;
         width: 100%;
     }
     .home-dive5-content h1 {
-        font-size: 31pt;
+        font-size: 20pt;
+        font-weight: 600;
         color: #222b5e;
     }
     .home-dive5-content p {
@@ -3528,9 +3512,14 @@ padding-top: 2px;
         font-weight: 500;
     }
     .home-div6-content h1 {
-        font-size: 31pt;
+        font-size: 20pt;
+        font-weight: 600;
         color: white;
         text-align: left !important;
+    }
+    .hpme-div6-content{
+        padding-right: 16px;
+        padding-right: 12px;
     }
     .home-div6-content p {
         font-size: 13pt;
@@ -3538,17 +3527,18 @@ padding-top: 2px;
     }
     .home-Industries-heading h1 {
         color: #222b5e;
-        font-size: 31pt;
+        font-size: 24pt;
     }
     .padding-left{
-        padding-left: 0px !important;
+        padding: 0px 30px !important;
     }
+    .img
     .home-card1-text {
         font-size: 20pt;
     }
     .home-card1-text {
         position: relative;
-        top: -210px !important;
+        top: -70% !important;
         left: 20px;
         color: white;
         font-size: 18pt;
@@ -3556,14 +3546,18 @@ padding-top: 2px;
     }
     .services-div8-content-card h1 {
         color: #222b5e;
-        font-size: 31pt;
+        font-size: 22pt;
+        padding: 0px 6px;
     }
     .home-div-9-content h1 {
         color: white;
-        font-size: 31pt;
+        font-size: 25pt;
     }
     .test-heading h1 {
-        font-size: 31pt;
+        font-size: 21pt;
+    }
+    .aboutus-div1-content{
+        padding: 150px 23px;
     }
     .test-heading p {
         font-size: 16pt;
@@ -3571,7 +3565,7 @@ padding-top: 2px;
     }
     .home-div11-heading h1 {
         color: #222b5e;
-        font-size: 31pt;
+        font-size: 26pt;
     }
     .for-corporate{
         margin-bottom: 30px;
@@ -3590,6 +3584,9 @@ padding-top: 2px;
         color: #fff !important;
         text-decoration: none !important;
     }
+    .aboutus-div1-content p{
+        font-size: 14pt;
+    }
     .margin-top{
         margin-top: 23px;
     }
@@ -3597,7 +3594,7 @@ padding-top: 2px;
         text-align: center;
     }
     .aboutus-div1-content h1 {
-        font-size: 31pt;
+        font-size: 22pt;
         color: white;
     }
     .about-heading {
@@ -3605,37 +3602,46 @@ padding-top: 2px;
         font-size: 31pt !important;
     }
     .about-div9-container-text p {
-        font-size: 15pt;
+        font-size: 12pt;
         color: black;
     }
     .content-div3-about h1 {
         color: white;
         font-weight: 600;
-        font-size: 31pt;
+        font-size: 23pt;
     }
     .about-div4-heading h1 {
         font-weight: 600;
         color: #222b5e;
-        font-size: 31pt;
+        font-size: 22pt;
     }
     .about-div4-heading p {
         color: #222b5e;
         font-size: 16pt;
     }
     .aboutus-div1-content h1 {
-        font-size: 31pt;
+        font-size: 19pt;
         color: white;
+    }
+    .perfeng-content-main-div3 h1{
+        font-size: 23pt;
+    }
+    .perfeng-content-main-div3 p{
+        font-size: 11pt;
+    }
+    .services-div3-heading p{
+        font-size: 14pt;
     }
     .services-di2-heading h1 {
         color: #222b5e;
         font-size: 31pt;
     }
     .services-div3-heading h2 {
-        font-size: 31pt;
+        font-size: 23pt;
     }
     .services-div4-content-card h1 {
         color: white;
-        font-size: 31pt;
+        font-size: 25pt;
     }
     .services-div4-content-card p {
         font-size: 15pt;
@@ -3864,12 +3870,7 @@ padding-top: 2px;
 
     
 }
-@media  only screen and (max-width:579px) and (min-width:330px){
-    .performance-div6-content{
-        padding-left: 50px !important;
-    }
 
-}
 @media  only screen and (max-width:330px) {
     .performance-div6-content{
         padding-left: 10px !important;
