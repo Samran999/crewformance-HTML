@@ -1891,8 +1891,7 @@ font-weight: bold;
 /*div2*/
 
 .wrapper-services-div2{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 12px;
 
 }
 
@@ -2527,6 +2526,43 @@ font-weight: bold;
     margin-top: 2px;
     
 
+    
+}
+.wraaper-container-contact-us{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 47px 16px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 36px 25px;
+    border: 1px solid #3f3f3f;
+    margin-left: 12px;
+    width: 320px;
+}
+.box p{
+    font-size: 12px;
+}
+.box img{
+    margin-bottom: 28px;
+}
+@media screen and (max-width: 1000px) {
+    .wraaper-container-contact-us{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 16px;
+    }
+    .box{
+        margin-top: 12px;
+        margin-left: 0px;
+    }
     
 }
 .aboutus-div4-col1 img{
@@ -3495,7 +3531,18 @@ padding-top: 2px;
         margin: 23px 0px;
         
     }
-    .
+    .contactus-div3-heading h1{
+        font-size: 21pt;
+    }
+    .contactus-div3-heading p{
+        font-size: 13pt;
+    }
+    .contact-us-main-heading h1{
+        font-size: 22pt;
+    }
+    .contact-us-main-heading p{
+        font-size: 12pt;
+    }
     .home-div4-img {
         text-align: center;
         padding-left: 10px;
@@ -3511,6 +3558,7 @@ padding-top: 2px;
         font-size: 13pt;
         font-weight: 500;
     }
+    
     .home-div6-content h1 {
         font-size: 20pt;
         font-weight: 600;
@@ -3634,7 +3682,10 @@ padding-top: 2px;
     }
     .services-di2-heading h1 {
         color: #222b5e;
-        font-size: 31pt;
+        font-size: 22pt;
+    }
+    .services-div2-content p{
+        font-size: 12pt;
     }
     .services-div3-heading h2 {
         font-size: 23pt;
